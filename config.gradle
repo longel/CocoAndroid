@@ -1,0 +1,50 @@
+ext {
+    // Application 的Groovy插件设置
+    ApplicationDefaultConfig = {
+        println "---------------ApplicationDefaultConfig--------------${it}"
+        it.apply plugin: 'com.android.application'
+        it.setDescription "${it.getName()}"
+        // 调用闭包 setAndroidConfig，
+        setAndroidConfig(it.android)
+        setDependencies(it.dependencies)
+
+        // 设置 applicationId
+        it.android.defaultConfig {
+            applicationId rootProject.ext.android["applicationId"] + "." + it.getName()
+        }
+    }
+
+    // Library 的Groovy插件设置
+    LibraryDefaultConfig = {
+        println "---------------LibraryDefaultConfig--------------${it}"
+        it.apply plugin: 'com.android.library'
+        it.setDescription "${it.getName()}"
+        // 调用闭包 setAndroidConfig，
+        setAndroidConfig(it.android)
+        setDependencies(it.dependencies)
+    }
+
+    // 设置 build.gradle 的 android{} 语句块
+    setAndroidConfig = {
+        println "---------------setAndroidConfig--------------${it}"
+        it.compileSdkVersion rootProject.ext.android["compileSdkVersion"]
+        it.defaultConfig {
+            minSdkVersion rootProject.ext.android["minSdkVersion"]
+            targetSdkVersion rootProject.ext.android["targetSdkVersion"]
+            versionCode rootProject.ext.android["versionCode"]
+            versionName rootProject.ext.android["versionName"]
+
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        }
+    }
+
+    // 定义一个闭包，设置每个library的共有依赖
+    setDependencies = {
+        // 闭包有默认参数it,也可显示声明参数
+        println "---------------setDependencies--------------${it}"
+        it.implementation fileTree(dir: 'libs', include: ['*.jar'])
+        it.testImplementation 'junit:junit:4.12'
+        it.androidTestImplementation 'com.android.support.test:runner:1.0.2'
+        it.androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    }
+}
