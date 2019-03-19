@@ -1,0 +1,35 @@
+// core 是一个基类，里面会规定代码的基本架构
+// 需要引入config.gradle，里面有我们需要的配置
+apply from: "${rootProject.getRootDir()}/config.gradle"
+
+// 设置gradle插件为library
+project.ext.LibraryDefaultConfig(project)
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    api rootProject.ext.dependencies["android_native"]["constraint-layout"]
+    api rootProject.ext.dependencies["android_native"]["appcompat-v7"]
+    api rootProject.ext.dependencies["android_native"]["recyclerview-v7"]
+    api rootProject.ext.dependencies["android_native"]["support-v4"]
+    api rootProject.ext.dependencies["android_native"]["design"]
+    api rootProject.ext.dependencies["android_native"]["cardview-v7"]
+
+    api rootProject.ext.dependencies["rx"]["rxandroid"]
+    api rootProject.ext.dependencies["rx"]["rxjava"]
+    api rootProject.ext.dependencies["rx"]["rxbinding"]
+    api rootProject.ext.dependencies["retrofit2"]["retrofit2:converter-scalars"]
+    api rootProject.ext.dependencies["retrofit2"]["retrofit2:converter-gson"]
+    api rootProject.ext.dependencies["retrofit2"]["retrofit2"]
+    api rootProject.ext.dependencies["retrofit2"]["adapter-rxjava2"]
+    api rootProject.ext.dependencies["logging-interceptor"]
+
+    api rootProject.ext.dependencies["lifecycle"]["extensions"]
+    annotationProcessor rootProject.ext.dependencies["lifecycle"]["compiler"]
+
+    // Dagger
+    api rootProject.ext.dependencies["dagger"]["dagger"]
+    api rootProject.ext.dependencies["dagger"]["dagger-android"]
+    api rootProject.ext.dependencies["dagger"]["dagger-android-support"]
+    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-compiler"]
+    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-android-processor"]
+}

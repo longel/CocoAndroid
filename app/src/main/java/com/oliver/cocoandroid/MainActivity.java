@@ -1,15 +1,27 @@
 package com.oliver.cocoandroid;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import com.oliver.cocoandroid.R;
+import com.oliver.core.activities.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected void initializeDatas() {
+
+    }
+
+    @Override
+    protected void initializeListeners() {
+
+    }
+
+    @Override
+    protected void initializeViews() {
+
+    }
+
+    @Override
+    protected int providerContentLayout() {
+        return R.layout.activity_main;
     }
 }
 

@@ -24,13 +24,48 @@ ext {
             versionName      : "beta1.0",
             supportVersion   : "27.1.1",
             constraintLayout : "1.1.3",
-            "gradleVersion"  : "3.3.2"
+            greendao         : "3.3.2",
+            eventbus         : "3.1.1",
+            glide            : "4.8.0",
+            rx               : "2.1.0",
+            rx_binding       : "2.1.1",
+            retrofit         : "2.4.0",
+            lifecycle        : "1.1.1",
+            dagger           : "2.21"
     ]
 
-
     dependencies = [
-            "gradle-version": "com.android.tools.build:gradle:${android.gradleVersion}",
-            "android_native": ["appcompat-v7"     : "com.android.support:appcompat-v7:${android.supportVersion}",
-                               "constraint-layout": "com.android.support.constraint:constraint-layout:${android.constraintLayout}"]
+            "android_native"     : ["appcompat-v7"     : "com.android.support:appcompat-v7:${android.supportVersion}",
+                                    "recyclerview-v7"  : "com.android.support:recyclerview-v7:${android.supportVersion}",
+                                    "support-v4"       : "com.android.support:support-v4:${android.supportVersion}",
+                                    "design"           : "com.android.support:design:${android.supportVersion}",
+                                    "cardview-v7"      : "com.android.support:cardview-v7:${android.supportVersion}",
+                                    "constraint-layout": "com.android.support.constraint:constraint-layout:${android.constraintLayout}"],
+
+            "rx"                 : ["rxandroid": "io.reactivex.rxjava2:rxandroid:${android.rx}",
+                                    "rxjava"   : "io.reactivex.rxjava2:rxjava:${android.rx}",
+                                    "rxbinding": "com.jakewharton.rxbinding2:rxbinding:${android.rx_binding}"//rx扩展插件
+            ],
+
+            "lifecycle"          : ["extensions": "android.arch.lifecycle:extensions:${android.lifecycle}",
+                                    "compiler"  : "android.arch.lifecycle:compiler:${android.lifecycle}"],
+
+            "retrofit2"          : ["retrofit2:converter-gson"   : "com.squareup.retrofit2:converter-gson:${android.retrofit}",
+                                    "retrofit2:converter-scalars": "com.squareup.retrofit2:converter-scalars:${android.retrofit}",
+                                    "retrofit2"                  : "com.squareup.retrofit2:retrofit:${android.retrofit}",
+                                    "adapter-rxjava2"            : "com.squareup.retrofit2:adapter-rxjava2:${android.retrofit}"],
+
+            "logging-interceptor": "com.squareup.okhttp3:logging-interceptor:3.8.1",
+
+            "dagger"             : ["dagger"                  : "com.google.dagger:dagger:${android.dagger}",
+                                    "dagger-compiler"         : "com.google.dagger:dagger-compiler:${android.dagger}",
+                                    "dagger-android"          : "com.google.dagger:dagger-android:${android.dagger}",
+                                    "dagger-android-support"  : "com.google.dagger:dagger-android-support:${android.dagger}",
+                                    "dagger-android-processor": "com.google.dagger:dagger-android-processor:${android.dagger}"],
+            "greendao"           : "org.greenrobot:greendao:${android.greendao}",
+            "glide"              : "com.github.bumptech.glide:glide:${android.glide}",
+            "eventbus"           : "org.greenrobot:eventbus:${android.eventbus}"
+
+
     ]
 }
