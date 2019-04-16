@@ -1,4 +1,10 @@
 ext {
+
+    isGalleryApplication = false
+    isWanAndroidApplication = false
+    isJetPackApplication = true
+
+
     // Java种声明一个数组：int[] a = {1,2,3};
     // groovy语法中,{...} 语法是为闭包准备的，故而其数组的表示应该换成这样 int[] a = [1,2,3];
     android = [
@@ -19,7 +25,7 @@ ext {
             applicationId    : "com.oliver.cocoandroid",
             compileSdkVersion: 27,
             minSdkVersion    : 19,
-            targetSdkVersion : 26,
+            targetSdkVersion : 27,
             versionCode      : 1,
             versionName      : "beta1.0",
             supportVersion   : "27.1.1",

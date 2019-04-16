@@ -23,13 +23,13 @@ dependencies {
     api rootProject.ext.dependencies["retrofit2"]["adapter-rxjava2"]
     api rootProject.ext.dependencies["logging-interceptor"]
 
-    api rootProject.ext.dependencies["lifecycle"]["extensions"]
-    annotationProcessor rootProject.ext.dependencies["lifecycle"]["compiler"]
+//    api rootProject.ext.dependencies["lifecycle"]["extensions"]
+//    annotationProcessor rootProject.ext.dependencies["lifecycle"]["compiler"]
 
     // Dagger
-    api rootProject.ext.dependencies["dagger"]["dagger"]
-    api rootProject.ext.dependencies["dagger"]["dagger-android"]
-    api rootProject.ext.dependencies["dagger"]["dagger-android-support"]
-    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-compiler"]
-    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-android-processor"]
+//    api rootProject.ext.dependencies["dagger"]["dagger"]
+//    api rootProject.ext.dependencies["dagger"]["dagger-android"]
+//    api rootProject.ext.dependencies["dagger"]["dagger-android-support"]
+//    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-compiler"]
+//    annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-android-processor"]
 }

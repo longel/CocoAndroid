@@ -1,0 +1,28 @@
+apply from: "${rootProject.getRootDir()}/config.gradle"
+if (rootProject.ext.isJetPackApplication) {
+    project.ext.ApplicationDefaultConfig(project)
+} else {
+    project.ext.LibraryDefaultConfig(project)
+}
+
+
+android {
+    sourceSets {
+        main {
+            if (rootProject.ext.isJetPackApplication) {
+                manifest.srcFile 'src/main/module/AndroidManifest.xml'
+            } else {
+                manifest.srcFile 'src/main/AndroidManifest.xml'
+                //集成开发模式下排除debug文件夹中的所有Java文件
+                java {
+                    exclude 'debug/**'
+                }
+            }
+        }
+    }
+}
+
+
+dependencies {
+    implementation project(":core")
+}

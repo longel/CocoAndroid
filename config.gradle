@@ -12,6 +12,10 @@ ext {
         it.android.defaultConfig {
             applicationId rootProject.ext.android["applicationId"] + "." + it.getName()
         }
+
+        it.android.dataBinding {
+            enabled = true
+        }
     }
 
     // Library 的Groovy插件设置
@@ -22,6 +26,10 @@ ext {
         // 调用闭包 setAndroidConfig，
         setAndroidConfig(it.android)
         setDependencies(it.dependencies)
+
+        it.android.dataBinding {
+            enabled = true
+        }
     }
 
     // 设置 build.gradle 的 android{} 语句块
@@ -46,6 +54,15 @@ ext {
         it.testImplementation 'junit:junit:4.12'
         it.androidTestImplementation 'com.android.support.test:runner:1.0.2'
         it.androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+        it.api rootProject.ext.dependencies["dagger"]["dagger"]
+        it.api rootProject.ext.dependencies["dagger"]["dagger-android"]
+        it.api rootProject.ext.dependencies["dagger"]["dagger-android-support"]
+        it.annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-compiler"]
+        it.annotationProcessor rootProject.ext.dependencies["dagger"]["dagger-android-processor"]
+
+        it.api rootProject.ext.dependencies["lifecycle"]["extensions"]
+        it.annotationProcessor rootProject.ext.dependencies["lifecycle"]["compiler"]
 
     }
 }

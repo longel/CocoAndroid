@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oliver.jetpack.LiveDataVMActivity">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        tools:text="Coco"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="0dp"
+        tools:text="Coco"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_name"/>
+
+    <TextView
+        android:id="@+id/tv_love"
+        android:layout_width="0dp"
+        tools:text="Coco"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_age"/>
+
+    <TextView
+        android:id="@+id/tv_change"
+        android:layout_width="0dp"
+        tools:text="Coco"
+        android:textSize="20sp"
+        android:text="Change"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_love"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -4,6 +4,7 @@ import com.oliver.core.activities.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 
+
     @Override
     protected void initializeDatas() {
 
@@ -23,5 +24,9 @@ public class MainActivity extends BaseActivity {
     protected int providerContentLayout() {
         return R.layout.activity_main;
     }
+
+
 }
+
+
 

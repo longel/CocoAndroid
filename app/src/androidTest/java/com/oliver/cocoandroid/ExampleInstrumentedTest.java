@@ -1,6 +1,9 @@
 package com.oliver.cocoandroid;
 
+import android.arch.lifecycle.ViewModel;
+import android.arch.lifecycle.ViewModelProvider;
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 
@@ -23,4 +26,10 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.oliver.cocoandroid", appContext.getPackageName());
     }
+
+
 }
+
+
+
+
