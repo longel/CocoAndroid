@@ -1,0 +1,1509 @@
+信息
+2023-04-06 22:36:53.934 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:53.934 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:53.936 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 4
+2023-04-06 22:36:53.936 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 4
+2023-04-06 22:36:53.936 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:53.936 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 4
+2023-04-06 22:36:53.936 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=4
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:53.939 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:53.939 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.939 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.973 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:53.973 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:53.973 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:53.973 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.973 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:53.973 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:53.974 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.974 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.974 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.987 22709-23637 W/bt_hci: LogMsg: hw_btu_hcif_get_sensorhub_cap: sensorhub_support=0
+2023-04-06 22:36:53.989 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:53.989 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:53.989 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 6
+2023-04-06 22:36:53.989 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 6
+2023-04-06 22:36:53.989 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:53.989 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 6
+2023-04-06 22:36:53.989 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=6
+2023-04-06 22:36:53.991 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:53.991 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:53.991 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.991 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:53.991 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:53.992 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.992 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:53.992 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:53.992 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:53.994 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:53.994 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:53.995 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 9
+2023-04-06 22:36:53.995 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 9
+2023-04-06 22:36:53.995 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:53.995 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 9
+2023-04-06 22:36:53.995 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=9
+2023-04-06 22:36:53.997 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:53.998 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:53.999 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.000 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.000 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.087 22709-23659 W/bt_hci: LogMsg: hw_btu_hcif_get_sensorhub_cap: sensorhub_support=0
+2023-04-06 22:36:54.090 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:36:54.090 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 9159db5b-48df-b36f-2ea0-2e8ae72b3155
+2023-04-06 22:36:54.090 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:36:54.090 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:36:54.095 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:54.097 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.097 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:36:54.098 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 55
+2023-04-06 22:36:54.098 22709-22951 D/bt_btm: LogMsg: counter = 189, maxfilt = 64, num_avbl=55
+2023-04-06 22:36:54.100 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.100 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:36:54.101 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 54
+2023-04-06 22:36:54.101 22709-22951 D/bt_btm: LogMsg: counter = 190, maxfilt = 64, num_avbl=54
+2023-04-06 22:36:54.104 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.104 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:36:54.105 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 53
+2023-04-06 22:36:54.105 22709-22951 D/bt_btm: LogMsg: counter = 191, maxfilt = 64, num_avbl=53
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.107 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.107 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.107 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.125 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:54.125 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 10
+2023-04-06 22:36:54.125 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.125 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 10
+2023-04-06 22:36:54.125 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:54.125 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 10
+2023-04-06 22:36:54.125 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=10
+2023-04-06 22:36:54.127 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.127 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.127 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.128 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.130 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.130 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:54.131 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 12
+2023-04-06 22:36:54.131 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 12
+2023-04-06 22:36:54.131 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:54.131 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 12
+2023-04-06 22:36:54.131 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=12
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.134 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.134 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.134 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.151 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 13
+2023-04-06 22:36:54.151 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 13
+2023-04-06 22:36:54.151 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:54.151 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 13
+2023-04-06 22:36:54.151 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=13
+2023-04-06 22:36:54.151 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.153 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:54.153 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.156 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.159 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.160 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:36:54.160 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 14
+2023-04-06 22:36:54.160 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 14
+2023-04-06 22:36:54.160 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:36:54.160 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 14
+2023-04-06 22:36:54.160 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=14
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.162 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:36:54.162 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.162 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.162 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.163 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:36:54.163 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 4800, 96
+2023-04-06 22:36:54.169 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:36:54.169 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 4800, 96, 0
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=4800 scan_win=96
+2023-04-06 22:36:54.169 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 4800, 96, 0
+2023-04-06 22:36:54.170 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=4800 scan_win=96
+2023-04-06 22:36:57.156 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:36:57.880 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:sniff[2] to immediate:active[0]
+2023-04-06 22:36:57.880 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:36:57.880 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 49, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:36:57.892 6756-6756 I/DEVMGR_SwitchLocalStorageUtil: 1300103300|R|I|getSwitchSettingFromDb switchKey = music_control_status
+2023-04-06 22:36:57.893 6756-6756 I/DEVMGR_SwitchLocalStorageUtil: 1300103300|R|I|getSwitchSettingFromDb switchSetting = true
+2023-04-06 22:36:57.897 6756-6756 I/R_MusicControlManager: 1300103300|R|I|sendMusicInfo musicInfo:MusicInfo{mSingerName=null, mSongName=null, mPlayState=1, mMaxVolume=0, mCurrentVolume=0}
+2023-04-06 22:36:57.899 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:36:57.900 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:36:57.900 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:36:57.900 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 53 bytes
+2023-04-06 22:36:57.900 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:36:57.900 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:36:57.901 22709-22951 I/bt_rfcomm: LogMsg: p_len=53 bytes
+2023-04-06 22:36:57.901 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:36:57.902 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:36:57.902 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:36:57.902 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 62 bytes
+2023-04-06 22:36:57.902 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:36:57.902 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:36:57.903 22709-22951 I/bt_rfcomm: LogMsg: p_len=62 bytes
+2023-04-06 22:36:57.928 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 14, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:36:57.929 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:32
+2023-04-06 22:37:00.884 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+2023-04-06 22:37:00.884 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:37:01.249 6756-6794 D/LogUtil_LogConfig: getLogFile(): logFilePath = /data/user/0/com.huawei.health/files/com.huawei.health/com.huawei.health_PhoneService/
+2023-04-06 22:37:01.250 6756-6794 D/LogUtil_LogConfig: acquireMaxLogFileLengthContainsOffset describe: com.huawei.health:PhoneService result:10485760
+2023-04-06 22:37:09.031 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|onCallStateChanged state: 1 incomingNumber: 702
+2023-04-06 22:37:09.040 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: RINGING incomingNumber: 702
+2023-04-06 22:37:09.052 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: RINGING incomingNumber: null
+2023-04-06 22:37:09.058 6756-26408 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneRing mIsPhoneForbidden is true, so return
+2023-04-06 22:37:09.060 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: RINGING incomingNumber: 702
+2023-04-06 22:37:09.063 6756-26410 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneRing mIsPhoneForbidden is true, so return
+2023-04-06 22:37:09.071 6756-26414 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneRing mIsPhoneForbidden is true, so return
+2023-04-06 22:37:09.075 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.075 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Setting power mode for peer:c0:83:xx:xx:xx:0b current_mode:immediate:sniff[2] new_mode:forced:active[0]
+2023-04-06 22:37:09.075 22709-22951 D/bt_btm: LogMsg: forced:active: Found controller in mode:btm_pm_snd_md_req
+2023-04-06 22:37:09.075 22709-22951 I/bt_btm_pm: btm_pm_snd_md_req: Switching from immediate:sniff[0x02] to immediate:active[0x00]
+2023-04-06 22:37:09.075 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:19
+2023-04-06 22:37:09.076 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 44 bytes
+2023-04-06 22:37:09.076 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.076 22709-22951 W/bt_btm_pm: BTM_LinkIsPending: pm_pend_link:10
+2023-04-06 22:37:09.076 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.076 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.076 22709-22951 I/bt_rfcomm: LogMsg: p_len=44 bytes
+2023-04-06 22:37:09.084 22709-22951 D/bt_btm: LogMsg: btm_pm_proc_cmd_status: Notifying callback that link power mode is complete peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.084 22709-22951 I/bt_btm_pm: btm_pm_proc_cmd_status: Clearing pending power mode link state:immediate:pending
+2023-04-06 22:37:09.205 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:09.209 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:09.217 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:09.217 22709-22709 I/hw_bt_btif: LogMsg: HwSetHDCallState: HD call state=0
+2023-04-06 22:37:09.222 22709-22709 I/hw_bt_btif: LogMsg: HwSetHDCallState: HD call state=0
+2023-04-06 22:37:09.229 22709-23584 I/bt_btif: LogMsg: BTHF: SetActiveDevice
+2023-04-06 22:37:09.244 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:09.379 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:pending[5] to immediate:active[0]
+2023-04-06 22:37:09.379 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:37:09.403 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 60, p_mcb:0x7021f7a8e8,p_port:0x7021f79208,dlci:17
+2023-04-06 22:37:09.403 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:10
+2023-04-06 22:37:09.405 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.406 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.406 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:19
+2023-04-06 22:37:09.406 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 76 bytes
+2023-04-06 22:37:09.406 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.406 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.407 22709-22951 I/bt_rfcomm: LogMsg: p_len=76 bytes
+2023-04-06 22:37:09.432 22709-22951 I/bt_stack: [INFO:btsnoop.cc(465)] allowlist_l2c_channel: Allowlisting l2cap channel. conn_handle=10 cid=0x005c:0x0206
+2023-04-06 22:37:09.433 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.433 22709-22951 D/bt_btm_sec: btm_sec_l2cap_access_req: is_originator:0, psm=0x0001, security_flags=0x0080, security_mode=4
+2023-04-06 22:37:09.433 22709-22951 D/bt_btm_sec: btm_sec_l2cap_access_req: No security required for SDP
+2023-04-06 22:37:09.433 22709-22951 W/bt_l2cap: LogMsg: LCID: 0x005c  st: W4_L2CA_CON_RSP  evt: UPPER_LAYER_CONNECT_RSP
+2023-04-06 22:37:09.435 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 51, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:37:09.441 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.441 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.441 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:37:09.441 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 55 bytes
+2023-04-06 22:37:09.441 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.441 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.441 22709-22951 I/bt_rfcomm: LogMsg: p_len=55 bytes
+2023-04-06 22:37:09.442 22709-22951 I/bt_l2cap: LogMsg: l2c_fcr_process_peer_cfg_req() CFG fcr_present:0 fcr.mode:0 CCB FCR mode:0 preferred: 0
+2023-04-06 22:37:09.443 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd cfg ind, sent cfg cfm, CID: 0x5c
+2023-04-06 22:37:09.443 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd cfg cfm, CID: 0x5c
+2023-04-06 22:37:09.460 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.460 22709-22951 I/bt_btif: LogMsg: BtaAgUpdateVersion bd_addr: c0:83:**:**:**:0b
+2023-04-06 22:37:09.460 22709-22951 W/bt_btif: LogMsg: No ag scb for peer addr
+2023-04-06 22:37:09.472 22709-22951 I/bt_rfcomm: LogMsg: PORT_ParNegInd: bd_addr=c0:83:**:**:**:0b, dlci=7, mtu=127
+2023-04-06 22:37:09.472 22709-22951 I/bt_stack: [INFO:port_utils.cc(356)] port_find_mcb_dlci_port: Cannot find allocated RFCOMM app port for DLCI 7 on c0:83:**:**:**:0b, p_mcb=0x7021f7a8e8
+2023-04-06 22:37:09.472 22709-22951 I/bt_rfcomm: LogMsg: PORT_ParNegInd: port_handles[dlci:7]:0->5
+2023-04-06 22:37:09.472 22709-22951 I/bt_rfcomm: LogMsg: rfc_send_pn: sends DLC Parameters Negotiation Frame, bd_addr c0:83:**:**:**:0b, dlci 7
+2023-04-06 22:37:09.473 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.473 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd L2CAP disc, CID: 0x5c
+2023-04-06 22:37:09.473 22709-22951 W/hw_bt_sdp: LogMsg: SDP - Rcvd L2CAP disc, process pend sdp ccb: 0x5c
+2023-04-06 22:37:09.473 22709-22951 D/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdp cid 0x5c, reUse 0
+2023-04-06 22:37:09.473 22709-22951 D/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdpWithNewCid pendCid 0x5c
+2023-04-06 22:37:09.473 22709-22951 D/bt_sdp: LogMsg: releasing SDP rsp_list
+2023-04-06 22:37:09.474 22709-22951 I/bt_stack: [INFO:btsnoop.cc(523)] clear_l2cap_allowlist: Clearing acceptlist from l2cap channel. conn_handle=10 cid=92:518
+2023-04-06 22:37:09.478 22709-22951 I/bt_rfcomm: LogMsg: rfc sabme, addr:c0:83:**:**:**:0b, port:5, scn:3, sec:0x36, server:1
+2023-04-06 22:37:09.478 22709-22951 I/bt_rfcomm: LogMsg: rfc_timer_stop
+2023-04-06 22:37:09.478 22709-22951 I/bt_btm: LogMsg: btm_find_or_alloc_dev
+2023-04-06 22:37:09.478 22709-22951 I/bt_btm: LogMsg: btm_sec_mx_access_request() no MITM protection needed security_required: 0x36
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm_sec: btm_sec_mx_access_request: Already have link key; checking if link key is sufficient
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm: LogMsg: btm_sec_check_upgrade()
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm: LogMsg: btm_sec_is_upgrade_possible() is_possible: 0 sec_flags: 0x9e
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm_sec: btm_sec_execute_procedure: security_required:0x3036 security_flags:0x9e security_state:BTM_SEC_STATE_IDLE[0]
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm_sec: btm_sec_execute_procedure: Authentication not required
+2023-04-06 22:37:09.478 22709-22951 D/bt_btm_sec: btm_sec_execute_procedure: Encryption not required
+2023-04-06 22:37:09.479 22709-22951 I/bt_btm: LogMsg: Security Manager: access granted
+2023-04-06 22:37:09.479 22709-22951 I/bt_btm_sec: btm_sec_mx_access_request: Started security procedure peer:c0:83:xx:xx:xx:0b btm_status:BTM_SUCCESS
+2023-04-06 22:37:09.479 22709-22951 I/bt_rfcomm: LogMsg: rfc_timer_stop
+2023-04-06 22:37:09.479 22709-22951 I/bt_rfcomm: LogMsg: rfc_send_ua: sends UA frame, bd_addr c0:83:**:**:**:0b, dlci 7
+2023-04-06 22:37:09.479 22709-22951 I/bt_stack: [INFO:btsnoop.cc(481)] allowlist_rfc_dlci: Allowlisting rfcomm channel. L2CAP CID=0x0041 DLCI=0x07
+2023-04-06 22:37:09.479 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=00:00:**:**:**:00, state=BTA_AG_INIT_ST(0x00), event=BTA_AG_RFC_OPEN_EVT(0x0508)
+2023-04-06 22:37:09.479 22709-22951 I/bt_btif: LogMsg: bta_ag_rfc_acp_open: serv_handle0 = 29 serv_handle1 = 5
+2023-04-06 22:37:09.479 22709-22951 I/bt_btif: LogMsg: bta_ag_rfc_acp_open: conn_service = 1 conn_handle = 5
+2023-04-06 22:37:09.479 22709-22951 I/bt_stack: [INFO:port_api.cc(325)] RFCOMM_RemoveServer: handle=29
+2023-04-06 22:37:09.479 22709-22951 I/bt_rfcomm: LogMsg: port_release_port p_port: 0x7021f79a78 state: 0 keep_handle: 0 handle: 29
+2023-04-06 22:37:09.479 22709-22951 I/bt_rfcomm: LogMsg: rfc_port_timer_stop
+2023-04-06 22:37:09.479 22709-22951 I/bt_rfcomm: LogMsg: port_release_port Clean-up handle: 29
+2023-04-06 22:37:09.479 22709-22951 I/bt_sdp: LogMsg: sdp_conn_originate: SDP - Originate started for peer c0:83:**:**:**:0b
+2023-04-06 22:37:09.479 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.479 22709-22951 I/bt_btm: LogMsg: BTM_SetSecurityLevel : sec: 0x0
+2023-04-06 22:37:09.479 22709-22951 I/bt_btm_sec: BTM_SetSecurityLevel: [0]: id:0, is_orig:true psm:0x0001 proto_id:0 chan_id:0  : sec:0x80 service_name:[] (up to 21 chars saved)
+2023-04-06 22:37:09.479 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.480 22709-22951 D/bt_btm_sec: btm_sec_l2cap_access_req: is_originator:1, psm=0x0001, security_flags=0x0080, security_mode=4
+2023-04-06 22:37:09.480 22709-22951 D/bt_btm_sec: btm_sec_l2cap_access_req: No security required for SDP
+2023-04-06 22:37:09.480 22709-22951 I/bt_l2cap: LogMsg: L2CAP - L2CA_conn_req(psm: 0x0001) returned CID: 0x005e
+2023-04-06 22:37:09.480 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_OPEN peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.480 22709-22951 W/bt_btif: LogMsg: bta_dm_pm_cback new conn_srvc count:4, id:5, app_id:1, peer_bdaddr:c0:83:**:**:**:0b
+2023-04-06 22:37:09.480 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.480 22709-22951 W/bt_btif: LogMsg: bta_ag_rfc_open: ag_conn_timeout: 5000
+2023-04-06 22:37:09.480 22709-22951 I/bt_stack: [INFO:bta_ag_sco.cc(1521)] bta_ag_sco_listen: c0:83:**:**:**:0b
+2023-04-06 22:37:09.480 22709-22951 I/bt_btif: LogMsg: bta_ag_sco_event: index=0xffff, device=c0:83:**:**:**:0b, state=BTA_AG_SCO_SHUTDOWN_ST[0], event=BTA_AG_SCO_LISTEN_E[0]
+2023-04-06 22:37:09.480 22709-22951 I/bt_btif: LogMsg: bta_ag_create_sco: BEFORE codec_updated=0, codec_fallback=0, sco_codec=1, peer_codec=1, msbc_settings=0, device=c0:83:**:**:**:0b
+2023-04-06 22:37:09.480 22709-22951 W/bt_stack: [WARNING:bta_ag_sco.cc(474)] bta_ag_create_sco: device c0:83:**:**:**:0b is not active, active_device=02:00:**:**:**:00
+2023-04-06 22:37:09.480 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.480 22709-22951 I/bt_btif: LogMsg: orig 0, inx 0x0000, btm_status 0x1, pkt types 0x03bf
+2023-04-06 22:37:09.480 22709-22951 I/bt_btif: LogMsg: bta_ag_create_sco: AFTER codec_updated=0, codec_fallback=0, sco_codec=1, peer_codec=1, msbc_settings=0, device=c0:83:**:**:**:0b
+2023-04-06 22:37:09.480 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state_change[BTA_AG_INIT_ST(0x00)]->[BTA_AG_OPEN_ST(0x02)], event[BTA_AG_RFC_OPEN_EVT(0x0508)]
+2023-04-06 22:37:09.481 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.481 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_OPEN_EVT
+2023-04-06 22:37:09.481 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_OPEN_EVT
+2023-04-06 22:37:09.481 22709-22750 W/hw_bt_btif: LogMsg: HwBtifStorageAddRemoteUuidForIncomingCon
+2023-04-06 22:37:09.481 22709-22750 W/hw_bt_btif: LogMsg: HwSendRemoteDeviceUuidToUpperLayer need add uuid 0x111e
+2023-04-06 22:37:09.481 22709-22750 W/hw_bt_btif: LogMsg: HwSendRemoteDeviceUuidToUpperLayer judege uuid already saved : 1
+2023-04-06 22:37:09.487 22709-22951 I/bt_rfcomm: LogMsg: PORT_ControlInd
+2023-04-06 22:37:09.487 22709-22951 I/bt_rfcomm: LogMsg: rfc_port_timer_start - timeout:20 seconds
+2023-04-06 22:37:09.487 22709-22951 I/bt_rfcomm: LogMsg: PORT_ControlInd DTR_DSR : 1, RTS_CTS : 1, RI : 0, DCD : 1
+2023-04-06 22:37:09.488 22709-22951 I/bt_stack: [INFO:btsnoop.cc(465)] allowlist_l2c_channel: Allowlisting l2cap channel. conn_handle=10 cid=0x005e:0x0207
+2023-04-06 22:37:09.489 22709-22951 I/bt_l2cap: LogMsg: l2c_fcr_process_peer_cfg_req() CFG fcr_present:0 fcr.mode:0 CCB FCR mode:0 preferred: 0
+2023-04-06 22:37:09.494 22709-22951 I/bt_rfcomm: LogMsg: rfc_port_timer_stop
+2023-04-06 22:37:09.494 22709-22951 I/bt_rfcomm: LogMsg: PORT_ControlCnf
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 12, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.495 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:12
+2023-04-06 22:37:09.495 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.495 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.495 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:14
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 14 bytes
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.495 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.496 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.496 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd cfg ind, sent cfg cfm, CID: 0x5e
+2023-04-06 22:37:09.496 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd cfg cfm, CID: 0x5e
+2023-04-06 22:37:09.508 6756-6756 I/DEVMGR_BtCommonAdapterUtil: 1300103300|R|I|EMUI mHfpStateReceiver action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED, mBtDeviceHfpStateCallback: false
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 11, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.509 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:11
+2023-04-06 22:37:09.509 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.509 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.509 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.509 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.509 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.510 22709-22951 W/bt_sdp: LogMsg: process_service_search_attr_rsp
+2023-04-06 22:37:09.510 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_BAC_EVT
+2023-04-06 22:37:09.510 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_BAC_EVT
+2023-04-06 22:37:09.510 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: btif_hf override-Preferred Codec to MSBC
+2023-04-06 22:37:09.510 22709-22951 I/bt_sdp: LogMsg: SDP - disconnect  CID: 0x5e state:3
+2023-04-06 22:37:09.510 22709-22951 D/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdp cid 0x5e, reUse 1
+2023-04-06 22:37:09.510 22709-22951 I/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdp no pending sdp
+2023-04-06 22:37:09.510 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.510 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_SETCODEC_EVT(0x0507)
+2023-04-06 22:37:09.510 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.510 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_WBS_EVT
+2023-04-06 22:37:09.510 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_WBS_EVT
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.516 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.516 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.516 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:132
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 127 bytes
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 5 bytes
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.516 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.517 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.517 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.517 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.517 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.517 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.517 22709-22951 I/bt_stack: [INFO:btsnoop.cc(523)] clear_l2cap_allowlist: Clearing acceptlist from l2cap channel. conn_handle=10 cid=94:519
+2023-04-06 22:37:09.517 22709-22951 I/bt_sdp: LogMsg: SDP - Rcvd L2CAP disc cfm, CID: 0x5e
+2023-04-06 22:37:09.517 22709-22951 W/bt_sdp: LogMsg: sdp_disconnect_cfm: p_cb and reason is 0x0
+2023-04-06 22:37:09.517 22709-22951 D/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdp cid 0x5e, reUse 0
+2023-04-06 22:37:09.517 22709-22951 D/hw_bt_sdp: LogMsg: HwSdpuResubmitPendSdpWithNewCid pendCid 0x5e
+2023-04-06 22:37:09.517 22709-22951 D/bt_sdp: LogMsg: releasing SDP rsp_list
+2023-04-06 22:37:09.517 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_DISC_ACP_RES_EVT(0x050e)
+2023-04-06 22:37:09.517 22709-22951 D/bt_sdp: LogMsg: SDP_FindServiceInDb - p_sattr value = 0x111e serviceuuid = 0x111e
+2023-04-06 22:37:09.517 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.527 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 9, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.527 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.527 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.527 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.527 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:9
+2023-04-06 22:37:09.527 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.528 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.528 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.528 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.528 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_CIND_EVT
+2023-04-06 22:37:09.528 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_CIND_EVT
+2023-04-06 22:37:09.528 22709-22750 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.529 22709-23584 I/bt_btif: LogMsg: BTHF: CindResponse
+2023-04-06 22:37:09.529 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.530 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_CIND_RES(0x03)
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:24
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 24 bytes
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.530 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.540 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 16, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.540 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.540 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.540 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.540 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:16
+2023-04-06 22:37:09.540 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.540 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.540 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.541 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.541 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.541 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.541 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.541 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.551 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.551 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.551 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:20
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 20 bytes
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.551 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.551 22709-22951 I/bt_stack: [INFO:bta_av_main.cc(957)] bta_av_sco_chg_cback: status=BTA_SYS_SCO_OPEN, num_links=1
+2023-04-06 22:37:09.551 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.551 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.551 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_CONN_EVT
+2023-04-06 22:37:09.551 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_CONN_EVT
+2023-04-06 22:37:09.551 22709-22750 D/bt_btif_hf: btif_hf_upstreams_evt: SLC connected event:BTA_AG_CONN_EVT idx:1
+2023-04-06 22:37:09.551 22709-22750 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.552 22709-22750 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:09.552 22709-22750 E/hw_bt_btif: LogMsg: queue_int_remove: cannot read connect_queue
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 9, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.562 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:9
+2023-04-06 22:37:09.562 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.562 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.562 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.563 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.564 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.565 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_MIC_EVT
+2023-04-06 22:37:09.565 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_MIC_EVT
+2023-04-06 22:37:09.565 22709-22750 D/bt_btif_hf: btif_hf_upstreams_evt: BTA auto-responds, silently discard event:BTA_AG_MIC_EVT
+2023-04-06 22:37:09.567 22709-23584 I/hw_bt_btif: LogMsg: HwSetHDCallState: HD call state=0
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 12, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.568 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:12
+2023-04-06 22:37:09.568 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.568 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.568 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.568 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.576 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 9, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.576 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.576 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.576 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.576 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:9
+2023-04-06 22:37:09.576 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.576 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.576 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.576 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.576 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_COPS_EVT
+2023-04-06 22:37:09.576 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_COPS_EVT
+2023-04-06 22:37:09.634 22709-23584 I/bt_btif: LogMsg: BTHF: PhoneStateChange
+2023-04-06 22:37:09.634 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.634 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.634 22709-23584 I/bt_btif_hf: PhoneStateChange: bd_addr:c0:83:xx:xx:xx:0b active_bda:02:00:xx:xx:xx:00 num_active:0 prev_num_active:0 num_held:0 prev_num_held:0 call_state:BTHF_CALL_STATE_INCOMING prev_call_state:BTHF_CALL_STATE_IDLE
+2023-04-06 22:37:09.634 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IN_CALL_RES(0x0b)
+2023-04-06 22:37:09.634 22709-22951 I/bt_stack: [INFO:bta_av_main.cc(957)] bta_av_sco_chg_cback: status=BTA_SYS_SCO_OPEN, num_links=1
+2023-04-06 22:37:09.634 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.635 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->call_ind = 0
+2023-04-06 22:37:09.635 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->callsetup_ind = 1
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:8
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 8 bytes
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.635 22709-23584 I/bt_btif: LogMsg: BTHF: CopsResponse
+2023-04-06 22:37:09.635 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.635 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_COPS_RES(0x0a)
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:29
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 29 bytes
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.636 22709-23584 I/bt_btif: LogMsg: BTHF: DeviceStatusNotification
+2023-04-06 22:37:09.636 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.636 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IND_RES(0x05)
+2023-04-06 22:37:09.636 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->service_ind = 1
+2023-04-06 22:37:09.636 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IND_RES(0x05)
+2023-04-06 22:37:09.636 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->roam_ind = 0
+2023-04-06 22:37:09.636 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IND_RES(0x05)
+2023-04-06 22:37:09.636 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->signal_ind = 5
+2023-04-06 22:37:09.636 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IND_RES(0x05)
+2023-04-06 22:37:09.636 22709-22951 W/bt_btif: LogMsg: bta_ag_send_ind p_scb->battchg_ind = 5
+2023-04-06 22:37:09.658 6756-6756 I/DEVMGR_BtCommonAdapterUtil: 1300103300|R|I|EMUI mHfpStateReceiver action: android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED, mBtDeviceHfpStateCallback: false
+2023-04-06 22:37:09.658 6756-6756 I/DEVMGR_BtCommonAdapterUtil: 1300103300|R|I|HFP device connected.
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.666 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.666 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.666 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.666 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.672 22709-22758 I/bt_btif: LogMsg: BTHF: SetActiveDevice
+2023-04-06 22:37:09.674 6756-6756 I/DEVMGR_ReconnectManager: 1300103300|R|I|Enter onBtDeviceHfpConnected. deviceUuid:C0:**********2:0B,btType:1
+2023-04-06 22:37:09.675 6756-6756 I/DEVMGR_ReconnectManager: 1300103300|R|I|onBTDeviceHFPConnected. type: 1
+2023-04-06 22:37:09.675 6756-6756 I/DEVMGR_ReconnectManager: 1300103300|R|I|ready to connect device is C0:**********2:0BreconnectType: 2
+2023-04-06 22:37:09.675 6756-6756 I/DEVMGR_ReconnectManager: 1300103300|R|I|start reconnect device. deviceUuid:C0:**********2:0B
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 9, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.675 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:9
+2023-04-06 22:37:09.675 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.675 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:17
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 17 bytes
+2023-04-06 22:37:09.675 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.675 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.686 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.686 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.686 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.686 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.686 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.693 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.693 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.693 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.693 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.693 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.701 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 8, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.701 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.701 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.701 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.701 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:8
+2023-04-06 22:37:09.701 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.701 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.701 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.703 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.703 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.703 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.704 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:09.704 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.704 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:17
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 17 bytes
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.704 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.704 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.704 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.704 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.709 22709-22709 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:09.714 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 8, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.714 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.714 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.714 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.714 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:8
+2023-04-06 22:37:09.714 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.714 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.714 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.714 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.714 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.714 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.719 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:09.719 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.719 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.719 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:19
+2023-04-06 22:37:09.719 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 19 bytes
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.719 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.719 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.731 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.731 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.731 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.731 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.731 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.732 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.732 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_NREC_EVT
+2023-04-06 22:37:09.732 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_NREC_EVT
+2023-04-06 22:37:09.739 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 25, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.740 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.740 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.740 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.740 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:25
+2023-04-06 22:37:09.740 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.740 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.740 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.742 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.743 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.743 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.748 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:09.748 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.748 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.748 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.748 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:18
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 18 bytes
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.748 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.748 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.759 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.760 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.760 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.760 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.760 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.760 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.761 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.761 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.761 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.765 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.765 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.765 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:09.765 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.765 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.765 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:92
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 92 bytes
+2023-04-06 22:37:09.765 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 10, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:6
+2023-04-06 22:37:09.780 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:10
+2023-04-06 22:37:09.780 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.780 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.780 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.780 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.781 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.782 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_SPK_EVT
+2023-04-06 22:37:09.782 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_SPK_EVT
+2023-04-06 22:37:09.782 22709-22750 D/bt_btif_hf: btif_hf_upstreams_evt: BTA auto-responds, silently discard event:BTA_AG_SPK_EVT
+2023-04-06 22:37:09.789 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 8, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.789 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.789 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.789 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.789 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:8
+2023-04-06 22:37:09.789 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.789 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.789 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.789 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.789 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_CLCC_EVT
+2023-04-06 22:37:09.789 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_CLCC_EVT
+2023-04-06 22:37:09.795 22709-23584 I/bt_btif: LogMsg: BTHF: ClccResponse
+2023-04-06 22:37:09.795 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.795 22709-23584 I/bt_btif: LogMsg: clcc_response: [1] dir 1 state 4 mode 0 number = xxxxxx type = 129
+2023-04-06 22:37:09.795 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_CLCC_RES(0x09)
+2023-04-06 22:37:09.795 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:38
+2023-04-06 22:37:09.795 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 38 bytes
+2023-04-06 22:37:09.795 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.796 22709-23584 I/bt_btif: LogMsg: BTHF: ClccResponse
+2023-04-06 22:37:09.796 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.796 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_CLCC_RES(0x09)
+2023-04-06 22:37:09.796 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.796 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.796 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.816 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 20, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.816 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.816 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.816 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.816 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:20
+2023-04-06 22:37:09.816 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.816 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.816 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.816 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.816 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.816 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.817 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.817 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.817 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.817 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.817 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.817 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.832 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 12, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:09.832 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:09.832 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:09.832 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:09.832 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:12
+2023-04-06 22:37:09.832 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.832 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:09.832 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:09.833 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:09.833 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.833 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:09.840 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:09.840 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:09.840 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:09.840 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:09.840 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:09.840 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:09.845 22709-23584 I/bt_btif: LogMsg: BTHF: SetActiveDevice
+2023-04-06 22:37:09.933 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:09.933 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register f5d7868c-1f3d-9fce-88bb-0b0f7101b086
+2023-04-06 22:37:09.934 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:09.934 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:09.938 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:09.941 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:09.941 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:4
+2023-04-06 22:37:09.941 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 3, 3, 0, 0, 63
+2023-04-06 22:37:09.941 22709-22951 D/bt_btm: LogMsg: counter = 13, maxfilt = 64, num_avbl=63
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 4800, 480
+2023-04-06 22:37:09.944 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:09.944 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 4800, 480, 0
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=4800 scan_win=480
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 4800, 480, 0
+2023-04-06 22:37:09.944 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=4800 scan_win=480
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:09.963 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:09.963 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.963 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:09.967 22709-24323 W/bt_hci: LogMsg: hw_btu_hcif_get_sensorhub_cap: sensorhub_support=0
+2023-04-06 22:37:09.968 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:09.968 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 49a1dfcf-ec26-3459-86f1-990a42d497b3
+2023-04-06 22:37:09.968 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:09.968 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:09.978 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:09.980 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:09.980 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:09.981 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 58
+2023-04-06 22:37:09.981 22709-22951 D/bt_btm: LogMsg: counter = 192, maxfilt = 64, num_avbl=58
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:09.982 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:09.982 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:09.982 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:09.982 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:09.983 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(101)] BTA_GATTC_AppDeregister client_if = 4
+2023-04-06 22:37:09.983 22709-22951 I/bt_stack: [INFO:bta_gattc_api.cc(85)] app_deregister_impl client_if = 4
+2023-04-06 22:37:09.983 22709-22951 E/bt_stack: [ERROR:bta_gattc_act.cc(251)] bta_gattc_deregister p_clreg->num_clcb is 0
+2023-04-06 22:37:09.983 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(1104)] bta_gattc_deregister_cmpl client_if is 4
+2023-04-06 22:37:09.983 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1074)] GATT_Deregister gatt_if=4
+2023-04-06 22:37:09.986 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:09.987 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:09.988 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:09.988 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:09.988 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.059 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:10.059 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 240ee7e2-e67a-e2b5-5500-09bec1c44892
+2023-04-06 22:37:10.059 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:10.059 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:10.061 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:10.061 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 433e343d-455a-fe28-fb1a-4fd89b230910
+2023-04-06 22:37:10.061 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:10.061 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:10.065 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:10.070 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:10.072 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:10.072 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register a8dbe19b-458b-e451-cba1-260ee77bf48b
+2023-04-06 22:37:10.072 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:10.072 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:10.072 22709-22951 D/bt_btm: LogMsg: Manuf data length: 9
+2023-04-06 22:37:10.073 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.073 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:32
+2023-04-06 22:37:10.073 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 6, 6, 0, 0, 63
+2023-04-06 22:37:10.073 22709-22951 D/bt_btm: LogMsg: counter = 183, maxfilt = 64, num_avbl=63
+2023-04-06 22:37:10.075 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.075 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.075 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:10.075 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 57898d1b-d796-6e76-522c-158a399bef37
+2023-04-06 22:37:10.075 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:10.075 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:10.076 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.076 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.076 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.080 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:10.081 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.081 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.081 22709-22951 I/bt_stack: [INFO:bta_gattc_act.cc(175)] bta_gattc_register: state:2
+2023-04-06 22:37:10.081 22709-22951 I/bt_stack: [INFO:gatt_api.cc(1024)] GATT_Register 449f05ce-ab18-6b9c-ce7f-2fb3125044af
+2023-04-06 22:37:10.081 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(263)] gatt_find_the_connected_bda start_idx=0
+2023-04-06 22:37:10.081 22709-22951 I/bt_stack: [INFO:gatt_utils.cc(275)]  found=0 found_idx=10
+2023-04-06 22:37:10.082 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:10.085 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:10.086 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 60
+2023-04-06 22:37:10.086 22709-22951 D/bt_btm: LogMsg: counter = 193, maxfilt = 64, num_avbl=60
+2023-04-06 22:37:10.088 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.088 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.089 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 59
+2023-04-06 22:37:10.089 22709-22951 D/bt_btm: LogMsg: counter = 194, maxfilt = 64, num_avbl=59
+2023-04-06 22:37:10.091 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.091 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.093 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 58
+2023-04-06 22:37:10.093 22709-22951 D/bt_btm: LogMsg: counter = 195, maxfilt = 64, num_avbl=58
+2023-04-06 22:37:10.095 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.095 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.097 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 57
+2023-04-06 22:37:10.097 22709-22951 D/bt_btm: LogMsg: counter = 196, maxfilt = 64, num_avbl=57
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.098 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.098 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.098 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.105 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 56
+2023-04-06 22:37:10.105 22709-22951 D/bt_btm: LogMsg: counter = 197, maxfilt = 64, num_avbl=56
+2023-04-06 22:37:10.105 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.105 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.109 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 55
+2023-04-06 22:37:10.109 22709-22951 D/bt_btm: LogMsg: counter = 198, maxfilt = 64, num_avbl=55
+2023-04-06 22:37:10.109 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.109 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.112 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.112 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.113 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 54
+2023-04-06 22:37:10.113 22709-22951 D/bt_btm: LogMsg: counter = 199, maxfilt = 64, num_avbl=54
+2023-04-06 22:37:10.114 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.115 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.115 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.115 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.119 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.119 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.120 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 53
+2023-04-06 22:37:10.120 22709-22951 D/bt_btm: LogMsg: counter = 200, maxfilt = 64, num_avbl=53
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.121 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.121 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.121 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.126 22709-22951 I/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup
+2023-04-06 22:37:10.126 22709-22951 D/bt_btm: LogMsg: BTM_BleAdvFilterParamSetup : Feat mask:64
+2023-04-06 22:37:10.126 22709-22951 D/bt_btm: LogMsg: btm_flt_update_cb: Recd: 7, 7, 0, 0, 52
+2023-04-06 22:37:10.126 22709-22951 D/bt_btm: LogMsg: counter = 201, maxfilt = 64, num_avbl=52
+2023-04-06 22:37:10.127 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 0 
+2023-04-06 22:37:10.127 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.127 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:37:10.127 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:37:10.128 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.128 22709-22951 I/bt_btm: LogMsg: BTM_BleSetScanParams: 960, 96
+2023-04-06 22:37:10.129 22709-22951 I/bt_btif: LogMsg: BTA_DmBleObserve:start = 1 
+2023-04-06 22:37:10.129 22709-22951 I/bt_btm: LogMsg: BTM_BleObserve : scan_type:1, 960, 96, 0
+2023-04-06 22:37:10.129 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:37:10.701 22709-22969 D/hw_bt_btif: LogMsg: HwTwsFindRecord: looking for record ff:ff:**:**:**:1f
+2023-04-06 22:37:10.702 22709-22969 D/hw_bt_btif: LogMsg: HwTwsFindRecord: looking for record 28:0f:**:**:**:1a
+2023-04-06 22:37:10.703 22709-22969 D/hw_bt_btif: LogMsg: HwTwsFindRecord: looking for record 4c:a6:**:**:**:bc
+2023-04-06 22:37:10.706 22709-22969 D/hw_bt_btif: LogMsg: HwTwsFindRecord: looking for record 14:0a:**:**:**:0a
+2023-04-06 22:37:12.060 6756-26413 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneRing mIsPhoneForbidden is true, so return
+2023-04-06 22:37:13.755 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 8, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:13.756 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:13.756 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:13.756 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:13.756 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:8
+2023-04-06 22:37:13.756 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:13.757 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:13.757 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:13.757 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:13.757 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:13.757 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:13.759 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:13.759 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:13.759 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:13.760 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:13.760 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:13.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:17
+2023-04-06 22:37:13.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 17 bytes
+2023-04-06 22:37:13.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:13.760 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:13.760 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:13.761 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:13.761 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:14.635 22709-22951 I/bt_btif: LogMsg: bta_sys_event: Event 0x512
+2023-04-06 22:37:14.635 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RING_TIMEOUT_EVT(0x0512)
+2023-04-06 22:37:14.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:8
+2023-04-06 22:37:14.635 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 8 bytes
+2023-04-06 22:37:14.636 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:14.636 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:28
+2023-04-06 22:37:14.636 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 28 bytes
+2023-04-06 22:37:14.636 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:17.490 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] AppStart events.
+2023-04-06 22:37:17.491 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] ActivityLoad events.
+2023-04-06 22:37:17.491 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] ActivityRender events.
+2023-04-06 22:37:17.491 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] Http events.
+2023-04-06 22:37:17.491 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] WebViewLoad events.
+2023-04-06 22:37:17.491 6756-6812 D/com.huawei.agc.apms: Collector: sending [0] WebViewError events.
+2023-04-06 22:37:17.492 6756-6812 D/com.huawei.agc.apms: Creating a new Non sampled Session: 7d545483d82a4522be1bd5b0dc74543e
+2023-04-06 22:37:17.493 6756-6812 D/com.huawei.agc.apms: tick took 2ms.
+2023-04-06 22:37:17.665 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 8, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:17.666 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:17.666 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:17.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:17.666 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:8
+2023-04-06 22:37:17.666 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:17.667 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:17.667 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:17.667 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:17.667 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:17.667 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_UNAT_EVT
+2023-04-06 22:37:17.669 22709-23584 I/bt_btif: LogMsg: BTHF: FormattedAtResponse
+2023-04-06 22:37:17.670 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:17.670 22709-23584 I/bt_btif: LogMsg: BTHF: AtResponse
+2023-04-06 22:37:17.670 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:17.670 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:17
+2023-04-06 22:37:17.670 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:17.670 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 17 bytes
+2023-04-06 22:37:17.670 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:17.671 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_UNAT_RES(0x14)
+2023-04-06 22:37:17.671 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:17.671 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:17.671 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:19.636 22709-22951 I/bt_btif: LogMsg: bta_sys_event: Event 0x512
+2023-04-06 22:37:19.637 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RING_TIMEOUT_EVT(0x0512)
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:8
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 8 bytes
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:28
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 28 bytes
+2023-04-06 22:37:19.637 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.127 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 4, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:20.127 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:20.128 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:20.128 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:20.128 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:4
+2023-04-06 22:37:20.128 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.128 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.129 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:20.129 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:20.129 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.129 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.130 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:20.130 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_A_EVT
+2023-04-06 22:37:20.130 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_A_EVT
+2023-04-06 22:37:20.139 22709-23584 I/bt_btif: LogMsg: BTHF: SetScoAllowed
+2023-04-06 22:37:20.143 22709-23584 I/bt_btif: LogMsg: BTHF: SetActiveDevice
+2023-04-06 22:37:20.273 22709-22709 I/hw_bt_btif: LogMsg: HwSetHDCallState: HD call state=0
+2023-04-06 22:37:20.282 22709-23584 I/bt_btif: LogMsg: BTHF: PhoneStateChange
+2023-04-06 22:37:20.282 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:20.282 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:37:20.282 22709-23584 I/bt_btif_hf: PhoneStateChange: bd_addr:c0:83:xx:xx:xx:0b active_bda:c0:83:xx:xx:xx:0b num_active:1 prev_num_active:0 num_held:0 prev_num_held:0 call_state:BTHF_CALL_STATE_IDLE prev_call_state:BTHF_CALL_STATE_INCOMING
+2023-04-06 22:37:20.282 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_IN_CALL_CONN_RES(0x0c)
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:14
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 14 bytes
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:14
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 14 bytes
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.282 22709-22951 I/bt_stack: [INFO:bta_ag_sco.cc(1557)] bta_ag_sco_open: open c0:83:**:**:**:0b
+2023-04-06 22:37:20.282 22709-22951 D/hw_bt_btif: LogMsg: HwTwsDdmGetCallState: call state (0)
+2023-04-06 22:37:20.282 22709-22951 I/bt_btif: LogMsg: bta_ag_sco_event: index=0x0000, device=c0:83:**:**:**:0b, state=BTA_AG_SCO_LISTEN_ST[1], event=BTA_AG_SCO_OPEN_E[1]
+2023-04-06 22:37:20.282 22709-22951 D/bt_btm: LogMsg: BTM_RemoveSco
+2023-04-06 22:37:20.282 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.282 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.282 22709-22951 D/hw_bt_btif: LogMsg: HwTwsFindRecord: looking for record c0:83:**:**:**:0b
+2023-04-06 22:37:20.282 22709-22951 D/hw_bt_btif: LogMsg: HwTwsFindRecord: found record 0
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:11
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 11 bytes
+2023-04-06 22:37:20.282 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.283 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.288 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: OFFHOOK incomingNumber: 702
+2023-04-06 22:37:20.288 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneIdleOrOffHook mIsPhoneForbidden: true mIsPhoneRing: false
+2023-04-06 22:37:20.289 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|onCallStateChanged state: 2 incomingNumber: 702
+2023-04-06 22:37:20.289 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneIdleOrOffHook mIsPhoneForbidden: true mIsPhoneRing: false
+2023-04-06 22:37:20.294 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: OFFHOOK incomingNumber: null
+2023-04-06 22:37:20.294 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneIdleOrOffHook mIsPhoneForbidden: true mIsPhoneRing: false
+2023-04-06 22:37:20.306 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|incoming onReceive state: OFFHOOK incomingNumber: 702
+2023-04-06 22:37:20.307 6756-6756 I/Notfiy_PhoneListManager: 1300103300|R|I|doPhoneIdleOrOffHook mIsPhoneForbidden: true mIsPhoneRing: false
+2023-04-06 22:37:20.308 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.308 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.308 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:19
+2023-04-06 22:37:20.308 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 44 bytes
+2023-04-06 22:37:20.308 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.308 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.308 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.308 22709-22951 I/bt_rfcomm: LogMsg: p_len=44 bytes
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 9, p_mcb:0x7021f7a8e8,p_port:0x7021f78638,dlci:7
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:7
+2023-04-06 22:37:20.311 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_RFC_DATA_EVT(0x050b)
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData() handle:5 max_len:512
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_ReadData queue:0 returned:9
+2023-04-06 22:37:20.311 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.311 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:6
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 6 bytes
+2023-04-06 22:37:20.311 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.311 22709-22951 I/bt_btif: LogMsg: bta_ag_sco_event: index=0xffff, device=c0:83:**:**:**:0b, state=BTA_AG_SCO_CODEC_ST[2], event=BTA_AG_SCO_CN_DONE_E[3]
+2023-04-06 22:37:20.311 22709-22951 I/bt_btif: LogMsg: bta_ag_create_sco: BEFORE codec_updated=0, codec_fallback=0, sco_codec=2, peer_codec=3, msbc_settings=0, device=c0:83:**:**:**:0b
+2023-04-06 22:37:20.311 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.312 22709-22951 I/bt_stack: [INFO:bta_av_main.cc(957)] bta_av_sco_chg_cback: status=BTA_SYS_SCO_OPEN, num_links=1
+2023-04-06 22:37:20.313 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.313 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.313 22709-22951 I/bt_stack: [INFO:btm_sco.cc(476)] btm_send_connect_request: enhanced parameter list txbw=0x1f40, rxbw=0x1f40, latency_ms=0xd, retransmit_effort=0x2, pkt_type=0x388, path=0x1
+2023-04-06 22:37:20.313 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:20.313 22709-22951 I/bt_btif: LogMsg: bta_ag_create_sco: orig 1, inx 0x0000, pkt types 0x0388
+2023-04-06 22:37:20.313 22709-22951 I/bt_btif: LogMsg: bta_ag_create_sco: AFTER codec_updated=0, codec_fallback=0, sco_codec=2, peer_codec=3, msbc_settings=0, device=c0:83:**:**:**:0b
+2023-04-06 22:37:20.313 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.314 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:20.314 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_BCS_EVT
+2023-04-06 22:37:20.314 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_BCS_EVT
+2023-04-06 22:37:20.317 2129-3261 I/AS.AudioService: onAccessoryPlugMediaUnmute newDevice=16 [bt_sco]
+2023-04-06 22:37:20.321 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:20.331 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:20.337 22709-22709 I/bt_btm: LogMsg: BTM: BTM_VendorSpecificCommand: Opcode: 0xFE00, ParamLen: 3.
+2023-04-06 22:37:20.338 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 60, p_mcb:0x7021f7a8e8,p_port:0x7021f79208,dlci:17
+2023-04-06 22:37:20.338 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:10
+2023-04-06 22:37:20.344 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.344 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.344 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:19
+2023-04-06 22:37:20.344 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 76 bytes
+2023-04-06 22:37:20.344 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.344 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.344 22709-22951 I/bt_rfcomm: LogMsg: p_len=76 bytes
+2023-04-06 22:37:20.374 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 51, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:37:20.374 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:32
+2023-04-06 22:37:20.378 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.378 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.378 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:37:20.378 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 55 bytes
+2023-04-06 22:37:20.378 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:37:20.378 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:37:20.378 22709-22951 I/bt_rfcomm: LogMsg: p_len=55 bytes
+2023-04-06 22:37:20.388 22709-22951 D/bt_btm: LogMsg: btm_sco_connected: hci_status 0x0
+2023-04-06 22:37:20.388 22709-22951 D/bt_btm_sec: btm_sec_is_a_bonded_dev: Device record bonded check peer:c0:83:xx:xx:xx:0b is_bonded:true
+2023-04-06 22:37:20.388 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_SCO_OPEN_EVT(0x050c)
+2023-04-06 22:37:20.388 22709-22951 I/bt_btif: LogMsg: bta_ag_sco_event: index=0x0000, device=c0:83:**:**:**:0b, state=BTA_AG_SCO_OPENING_ST[3], event=BTA_AG_SCO_CONN_OPEN_E[7]
+2023-04-06 22:37:20.389 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:20.389 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.389 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AT_BCS_EVT
+2023-04-06 22:37:20.389 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AT_BCS_EVT
+2023-04-06 22:37:20.389 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.389 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.389 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.389 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.389 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:37:20.389 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:37:20.389 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: Entering DDM version of btif_hf_upstreams_evt
+2023-04-06 22:37:20.390 22709-22750 D/hw_bt_btif: LogMsg: HwTwsDdmBtifHfUpstreamsEvt: event=BTA_AG_AUDIO_OPEN_EVT
+2023-04-06 22:37:20.390 22709-22750 I/bt_btif: LogMsg: btif_hf_upstreams_evt: event=BTA_AG_AUDIO_OPEN_EVT
+2023-04-06 22:37:20.390 22709-22750 D/bt_btif_hf: btif_hf_upstreams_evt: Audio open event:BTA_AG_AUDIO_OPEN_EVT
+2023-04-06 22:37:20.503 3873-4167 D/BtDft_NcBtDftManager: handleBtParam id = EVENT_BT_BEHAVIOR
+2023-04-06 22:37:20.595 3693-4680 I/SarControl_Manager: handleControlSAR, wifi_bt_value=-1
+2023-04-06 22:37:20.597 3693-4680 I/SarControl_Manager: handleControlSAR, wifi_bt_value=-1
+2023-04-06 22:37:20.625 2129-3262 I/AS.AudioDeviceBroker: onUpdateCommunicationRoute, preferredCommunicationDevice: AudioDeviceAttributes: role:output type:bt_sco addr:C0:83:C9:0C:D2:0B eventSource: setNewModeOwner
+2023-04-06 22:37:20.628 2129-3262 I/AS.AudioDeviceBroker: onUpdateCommunicationRoute, preferredCommunicationDevice: AudioDeviceAttributes: role:output type:bt_sco addr:C0:83:C9:0C:D2:0B eventSource: BtHelper.receiveBtEvent
+2023-04-06 22:37:20.629 2129-3262 I/AS.AudioDeviceInventory: setPreferredDevicesForStrategySync, strategy: 14 devices: [AudioDeviceAttributes: role:output type:bt_sco addr:C0:83:C9:0C:D2:0B]
+2023-04-06 22:37:21.675 3693-4680 I/SarControl_Manager: handleControlSAR, wifi_bt_value=-1
+
+
+电话
+2023-04-06 22:34:37.824 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+2023-04-06 22:34:37.824 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:34:37.873 22709-22709 I/hw_bt_btif: LogMsg: HwSetHDCallState: HD call state=0
+2023-04-06 22:34:37.876 22709-23584 I/bt_btif: LogMsg: BTHF: PhoneStateChange
+2023-04-06 22:34:37.876 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:34:37.876 22709-23584 W/bt_btif: LogMsg: IsConnectedByIndex - not connected
+2023-04-06 22:34:37.876 22709-23584 I/bt_btif_hf: PhoneStateChange: bd_addr:c0:83:xx:xx:xx:0b active_bda:02:00:xx:xx:xx:00 num_active:1 prev_num_active:0 num_held:0 prev_num_held:0 call_state:BTHF_CALL_STATE_IDLE prev_call_state:BTHF_CALL_STATE_ALERTING
+2023-04-06 22:34:37.877 22709-22951 I/bt_btif: LogMsg: bta_ag_sm_execute: handle=0x0002, bd_addr=c0:83:**:**:**:0b, state=BTA_AG_OPEN_ST(0x02), event=BTA_AG_API_RESULT_EVT(0x0506), result=BTA_AG_OUT_CALL_CONN_RES(0x10)
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:14
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 14 bytes
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData() max_len:14
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 14 bytes
+2023-04-06 22:34:37.877 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:34:38.853 6756-6798 I/TimeEat_PoolMonitor: 1300103300|R|I|haf-def-1-main, state{[20, 5, 7], poolSize=3, activeCount=0, runNum=0, waitNum=(0, 0, 0)}, stage{interval=121109, cmpNum=3, avgRunTime=2, maxRunTime=6}, total{taskCmpNum=702, avgRunTime=18, maxRunTime=2189}
+2023-04-06 22:34:39.390 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:sniff[2] to immediate:active[0]
+2023-04-06 22:34:39.391 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:34:39.865 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_scan 
+2023-04-06 22:34:39.865 22709-22951 I/bt_btm: LogMsg: btm_update_scanner_filter_policy
+2023-04-06 22:34:39.865 22709-22951 I/bt_btm: LogMsg: btm_send_hci_set_scan_params scan_type=1 scan_int=960 scan_win=96
+2023-04-06 22:34:39.865 22709-22951 I/bt_btm: LogMsg: btm_ble_stop_auto_conn
+2023-04-06 22:34:39.865 22709-22951 I/bt_stack: [INFO:btm_ble_connection_establishment.cc(299)] btm_ble_create_conn_cancel.
+2023-04-06 22:34:39.866 22709-22951 D/bt_btm_ble: btm_ble_set_random_address: Updating local random address:69:12:xx:xx:xx:13
+2023-04-06 22:34:39.866 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(674)] btm_ble_resume_bg_conn
+2023-04-06 22:34:39.866 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(481)] btm_ble_start_auto_conn
+2023-04-06 22:34:39.866 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(507)] btm_ble_start_auto_conn no need to triger connection
+2023-04-06 22:34:39.872 22709-22951 I/bt_btm: LogMsg: HwBleConnCompleteDelayReport
+2023-04-06 22:34:39.872 22709-22951 I/bt_btm: LogMsg: IsBleAclBusy: g_bleAclInfo.handle 0x0
+2023-04-06 22:34:39.872 22709-22951 I/bt_btm: LogMsg: HwBleConnCompleteDelayReport bda 00:00:**:**:**:00, handle=0x0, status=0x2, role=0x0. ble acl conn no need delay report
+2023-04-06 22:34:39.872 22709-22951 I/bt_stack: [INFO:btm_ble_connection_establishment.cc(213)] btm_ble_conn_complete: bda:00:00:**:**:**:00
+2023-04-06 22:34:39.872 22709-22951 D/bt_btm_ble: btm_ble_update_mode_operation: Resuming le background connections
+2023-04-06 22:34:39.872 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(674)] btm_ble_resume_bg_conn
+2023-04-06 22:34:39.873 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(481)] btm_ble_start_auto_conn
+2023-04-06 22:34:39.873 22709-22951 I/bt_stack: [INFO:btm_ble_bgconn.cc(406)] btm_execute_wl_dev_operation
+2023-04-06 22:34:39.873 22709-22951 I/bt_stack: [INFO:btm_ble_connection_establishment.cc(68)] btm_send_hci_create_connection: scan_int=2048 scan_win=128 init_filter_policy=1 addr_type_peer=2 bda_peer=00:00:**:**:**:00 addr_type_own=3 conn_int_min=24 conn_int_max=40 conn_latency=0 conn_timeout=500 min_ce_len0 max_ce_len=0 initiating_phys=7
+2023-04-06 22:34:39.873 22709-22951 D/hw_bt_btif: LogMsg: HwTwsFusionPairBleCreated: remoteBda = 00:00:**:**:**:00
+2023-04-06 22:34:39.873 22709-22951 D/hw_bt_btif: LogMsg: HwTwsFusionPairSyncSecInfo 00:00:**:**:**:00
+2023-04-06 22:34:41.369 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+2023-04-06 22:34:41.369 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:34:45.854 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756078753292, lux = 11, cct = 5917, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:45.958 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756178766938, lux = 11, cct = 5912, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.056 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756278765688, lux = 11, cct = 5912, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.156 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756378765948, lux = 11, cct = 5912, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.259 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756478766678, lux = 11, cct = 5916, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.357 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756578756990, lux = 11, cct = 5916, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.454 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756678767198, lux = 11, cct = 5916, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.559 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756778756261, lux = 11, cct = 5883, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.656 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756878766678, lux = 11, cct = 5883, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:46.756 2450-23972 I/sensors-hal: handle_sns_std_sensor_event:552, [ambient_light] ts=476756978771625, lux = 11, cct = 5883, ir = 3, raw_red=8 raw_green=7 raw_blue=8 raw_clear=22
+2023-04-06 22:34:49.497 22709-22470 I/bt_btif: LogMsg: btif_hh_poll_event_thread: ret=0, revents=0, count=603000
+2023-04-06 22:34:51.093 6756-6756 I/R_IntegratedServicesReceiver: 1300103300|R|I|onReceive handle action is :com.huawei.bone.ACTION_NOTIFICATION_PUSH
+2023-04-06 22:34:51.093 6756-6756 I/R_IntegratedServicesReceiver: 1300103300|R|I|pushNotificationToDevice enter
+2023-04-06 22:34:51.094 6756-6756 I/R_NotifySendUtil: 1300103300|R|I|setStringTextList textContentLength = 8, sContentLength = 498
+2023-04-06 22:34:51.095 6756-6756 I/R_NotifySendUtil: 1300103300|R|I|setStringTextList textContentLength = 1124, sContentLength = 498
+2023-04-06 22:34:51.097 6756-6756 I/ContentPermission: authority:sms mPermissionType = 4
+2023-04-06 22:34:51.097 6756-6756 V/StubController: hsm should not control this permission: 4
+2023-04-06 22:34:51.097 2129-4334 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9ebda26 u0 com.android.providers.telephony/.SmsProvider} launchingApp=null caller pid= 6756
+2023-04-06 22:34:51.115 6756-25357 I/FormalHASDK: e==> HiAnalyticsDataManager.getInitFlag(String tag) is execute.TAG: _default_config_tag
+2023-04-06 22:34:51.115 6756-25357 I/FormalHASDK: HiAnalyticsInstance==> onEvent. TAG:_default_config_tag, TYPE:1, eventId:85070006
+2023-04-06 22:34:51.117 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:34:51.117 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Setting power mode for peer:c0:83:xx:xx:xx:0b current_mode:immediate:sniff[2] new_mode:forced:active[0]
+2023-04-06 22:34:51.117 22709-22951 D/bt_btm: LogMsg: forced:active: Found controller in mode:btm_pm_snd_md_req
+2023-04-06 22:34:51.117 22709-22951 I/bt_btm_pm: btm_pm_snd_md_req: Switching from immediate:sniff[0x02] to immediate:active[0x00]
+2023-04-06 22:34:51.117 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:34:51.117 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 691 bytes
+2023-04-06 22:34:51.117 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:34:51.117 22709-22951 W/bt_btm_pm: BTM_LinkIsPending: pm_pend_link:10
+2023-04-06 22:34:51.117 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:34:51.117 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:34:51.118 22709-22951 I/bt_rfcomm: LogMsg: p_len=691 bytes
+2023-04-06 22:34:51.118 6756-25360 I/FormalHASDK: RecordTask==> record evt size: 17, TAG: _default_config_tag, TYPE: maint
+2023-04-06 22:34:51.125 22709-22951 D/bt_btm: LogMsg: btm_pm_proc_cmd_status: Notifying callback that link power mode is complete peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:34:51.125 22709-22951 I/bt_btm_pm: btm_pm_proc_cmd_status: Clearing pending power mode link state:immediate:pending
+2023-04-06 22:34:51.378 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:pending[5] to immediate:active[0]
+2023-04-06 22:34:51.378 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:34:51.454 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 14, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:34:51.454 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:32
+2023-04-06 22:34:51.455 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 51, p_mcb:0x7021f7a8e8,p_port:0x7021f78488,dlci:32
+2023-04-06 22:34:51.459 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:34:51.459 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:34:51.459 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:3
+2023-04-06 22:34:51.459 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 55 bytes
+2023-04-06 22:34:51.459 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:34:51.459 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:34:51.459 22709-22951 I/bt_rfcomm: LogMsg: p_len=55 bytes
+
+微信
+
+收
+2023-04-06 22:46:42.897 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+2023-04-06 22:46:42.898 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:46:42.944 29394-29595 I/mars::stn: [longlink_connect_monitor.cc:470, OnHeartbeatAlarmSet]:longlink_progress on_heartbeat_set, time: 477473183, time interval:210000
+2023-04-06 22:46:44.746 28412-28412 D/[KindaLib] ProxyConstructorMap: createObject: KOfflinePayService
+2023-04-06 22:46:44.747 28412-28412 D/[KindaLib] ProxyConstructorMap: can not find proxy creator method or is not view
+2023-04-06 22:46:44.747 28412-28412 D/[KindaLib] ProxyConstructorMap: createObject: KOfflinePayService
+2023-04-06 22:46:44.747 28412-28412 D/[KindaLib] ProxyConstructorMap: can not find proxy creator method or is not view
+2023-04-06 22:46:44.747 28412-28412 D/[KindaLib] ProxyConstructorMap: createObject: KOfflinePayService
+2023-04-06 22:46:44.747 28412-28412 D/[KindaLib] ProxyConstructorMap: can not find proxy creator method or is not view
+2023-04-06 22:46:44.749 28412-28412 D/[KindaLib] ProxyConstructorMap: createObject: KOfflinePayService
+2023-04-06 22:46:44.749 28412-28412 D/[KindaLib] ProxyConstructorMap: can not find proxy creator method or is not view
+2023-04-06 22:46:44.749 28412-28412 D/[KindaLib] ProxyConstructorMap: createObject: KOfflinePayService
+2023-04-06 22:46:44.750 28412-28412 D/[KindaLib] ProxyConstructorMap: can not find proxy creator method or is not view
+2023-04-06 22:46:45.492 2129-4124 I/NetworkStats: openSessionForUsageStats, pid = 28412, pkg = com.tencent.mm
+2023-04-06 22:46:45.497 2129-3204 I/NetworkStats: openSessionForUsageStats, pid = 28412, pkg = com.tencent.mm
+2023-04-06 22:46:45.500 29394-29595 I/mars::stn: [longlink_connect_monitor.cc:470, OnHeartbeatAlarmSet]:longlink_progress on_heartbeat_set, time: 477475739, time interval:210000
+2023-04-06 22:46:45.616 29394-29502 V/adam: 14:46:45.616 29502 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:45.616 29394-29549 V/adam: 14:46:45.616 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:46:45.617 29394-29549 V/adam: 14:46:45.617 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:46:45.618 29394-29571 V/adam: 14:46:45.617 29571 V adam adam_packer_utils.cpp 18: --> adam_packer_pack_body
+2023-04-06 22:46:45.618 29394-29571 V/adam: 14:46:45.618 29571 V adam lz4_util.cpp 21: --> Lz4Compress
+2023-04-06 22:46:45.618 29394-29571 V/adam: 14:46:45.618 29571 V adam lz4_util.cpp 30: going to compress len:179, max:195
+2023-04-06 22:46:45.618 29394-29571 V/adam: 14:46:45.618 29571 V adam lz4_util.cpp 32: finish compress len:174
+2023-04-06 22:46:45.619 29394-29571 V/adam: 14:46:45.619 29571 V adam lz4_util.cpp 21: <-- Lz4Compress +1
+2023-04-06 22:46:45.619 29394-29571 V/adam: 14:46:45.619 29571 V adam adam_crypto_utils.cpp 34: --> aes_gcm_encrypt
+2023-04-06 22:46:45.620 29394-29571 V/adam: 14:46:45.619 29571 V adam adam_crypto_utils.cpp 102: finish enc in:174, keylen:32, iv:12, tag:16, out:202
+2023-04-06 22:46:45.620 29394-29571 V/adam: 14:46:45.620 29571 V adam adam_crypto_utils.cpp 34: <-- aes_gcm_encrypt +1
+2023-04-06 22:46:45.620 29394-29571 V/adam: 14:46:45.620 29571 V adam adam_packer_utils.cpp 62: comalgo:1, encalgo:1, origlen:179, compressed:174, encrypt:202
+2023-04-06 22:46:45.620 29394-29571 V/adam: 14:46:45.620 29571 V adam adam_packer_utils.cpp 18: <-- adam_packer_pack_body +3
+2023-04-06 22:46:45.621 29394-29571 V/adam: 14:46:45.620 29571 V adam adam_server_session.cpp 518: cmdtype:18, orig:179, encrypt:202
+2023-04-06 22:46:45.621 29394-29549 V/adam: 14:46:45.621 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:46:45.622 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:45.622 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Setting power mode for peer:c0:83:xx:xx:xx:0b current_mode:immediate:sniff[2] new_mode:forced:active[0]
+2023-04-06 22:46:45.622 22709-22951 D/bt_btm: LogMsg: forced:active: Found controller in mode:btm_pm_snd_md_req
+2023-04-06 22:46:45.622 22709-22951 I/bt_btm_pm: btm_pm_snd_md_req: Switching from immediate:sniff[0x02] to immediate:active[0x00]
+2023-04-06 22:46:45.625 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:31
+2023-04-06 22:46:45.625 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 246 bytes
+2023-04-06 22:46:45.625 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:46:45.627 22709-22951 W/bt_btm_pm: BTM_LinkIsPending: pm_pend_link:10
+2023-04-06 22:46:45.627 22709-22951 D/hw_bt_btif: LogMsg: HiechoGetAudioCapsMatchByType not found addr: addr=c0:83:**:**:**:0b capType=-1
+2023-04-06 22:46:45.627 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:45.627 22709-22951 I/bt_rfcomm: LogMsg: p_len=246 bytes
+2023-04-06 22:46:45.631 22709-22951 D/bt_btm: LogMsg: btm_pm_proc_cmd_status: Notifying callback that link power mode is complete peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:45.631 22709-22951 I/bt_btm_pm: btm_pm_proc_cmd_status: Clearing pending power mode link state:immediate:pending
+2023-04-06 22:46:45.637 28412-28412 I/HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+2023-04-06 22:46:45.780 28412-29351 V/AudioManager: getStreamVolume streamType: 5 volume: 0
+2023-04-06 22:46:45.884 28412-28430 I/OpenGLRenderer: gpu complete fence is not signaled
+2023-04-06 22:46:45.888 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:pending[5] to immediate:active[0]
+2023-04-06 22:46:45.888 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
+2023-04-06 22:46:45.918 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 85, p_mcb:0x7021f7a8e8,p_port:0x7021f79c28,dlci:2
+2023-04-06 22:46:45.918 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:10
+2023-04-06 22:46:45.923 29394-29493 V/adam: 14:46:45.923 29493 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:45.924 29394-29549 V/adam: 14:46:45.924 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:46:45.925 29394-29549 V/adam: 14:46:45.924 29549 V adam adam_crypto_utils.cpp 106: --> aes_gcm_decrypt
+2023-04-06 22:46:45.925 29394-29549 V/adam: 14:46:45.925 29549 V adam adam_crypto_utils.cpp 179: finish dec in:38, keylen:32, iv:12, tag:16, out:10
+2023-04-06 22:46:45.925 29394-29549 V/adam: 14:46:45.925 29549 V adam adam_crypto_utils.cpp 106: <-- aes_gcm_decrypt +1
+2023-04-06 22:46:45.926 29394-29549 V/adam: 14:46:45.925 29549 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:45.926 29394-29549 V/adam: 14:46:45.926 29549 V adam adam_server_session.cpp 243: recv app cmd taskid:745, funcname:GetConversationList
+2023-04-06 22:46:45.927 29394-29549 V/adam: 14:46:45.926 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:46:45.927 29394-29549 V/adam: 14:46:45.927 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:46:45.953 29394-29502 V/adam: 14:46:45.953 29502 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:45.954 29394-29549 V/adam: 14:46:45.953 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:46:45.954 29394-29549 V/adam: 14:46:45.954 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:46:45.955 29394-29549 V/adam: 14:46:45.955 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:46:45.955 29394-29571 V/adam: 14:46:45.955 29571 V adam adam_packer_utils.cpp 18: --> adam_packer_pack_body
+2023-04-06 22:46:45.956 29394-29571 V/adam: 14:46:45.956 29571 V adam lz4_util.cpp 21: --> Lz4Compress
+2023-04-06 22:46:45.956 29394-29571 V/adam: 14:46:45.956 29571 V adam lz4_util.cpp 30: going to compress len:1182, max:1202
+2023-04-06 22:46:45.957 29394-29571 V/adam: 14:46:45.957 29571 V adam lz4_util.cpp 32: finish compress len:698
+2023-04-06 22:46:45.957 29394-29571 V/adam: 14:46:45.957 29571 V adam lz4_util.cpp 21: <-- Lz4Compress +1
+2023-04-06 22:46:45.958 29394-29571 V/adam: 14:46:45.957 29571 V adam adam_crypto_utils.cpp 34: --> aes_gcm_encrypt
+2023-04-06 22:46:45.958 29394-29571 V/adam: 14:46:45.958 29571 V adam adam_crypto_utils.cpp 102: finish enc in:698, keylen:32, iv:12, tag:16, out:726
+2023-04-06 22:46:45.959 29394-29571 V/adam: 14:46:45.958 29571 V adam adam_crypto_utils.cpp 34: <-- aes_gcm_encrypt +1
+2023-04-06 22:46:45.959 29394-29571 V/adam: 14:46:45.959 29571 V adam adam_packer_utils.cpp 62: comalgo:1, encalgo:1, origlen:1182, compressed:698, encrypt:726
+2023-04-06 22:46:45.959 29394-29571 V/adam: 14:46:45.959 29571 V adam adam_packer_utils.cpp 18: <-- adam_packer_pack_body +5
+2023-04-06 22:46:45.960 29394-29571 V/adam: 14:46:45.960 29571 V adam adam_server_session.cpp 518: cmdtype:17, orig:1182, encrypt:726
+2023-04-06 22:46:45.962 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:45.962 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:46:45.962 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:31
+2023-04-06 22:46:45.963 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 755 bytes
+2023-04-06 22:46:45.963 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:46:45.963 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:45.963 22709-22951 I/bt_rfcomm: LogMsg: p_len=755 bytes
+2023-04-06 22:46:46.090 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1013, dataLen:151 callertid:28615 timestamp:477476328"
+2023-04-06 22:46:46.090 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792406090307"
+2023-04-06 22:46:46.090 28412-28603 D/HARDCODER: [protocol.h,requestUnifyCpuIOThreadCoreGpu:1190]"requestUnifyCpuIOThreadCoreGpu requestid:1680792406090307, scene:6, action:127040, cpulevel:2, iolevel:2, bindlen:0, gpulevel:1, timeoutms:1029"
+2023-04-06 22:46:46.090 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_requestUnifyCpuIOThreadCoreGpu:358]"requestUnifyCpuIOThreadCoreGpu, requestId:1680792406090307, scene:6, action:127040, cpulevel:2, iolevel:2, bindtids len:1, " "gpulevel:0 timeout:1029 tid:28615 timestamp:" PRId64
+2023-04-06 22:46:46.090 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:46:46.090 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:46:46.090 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:203, fd:240, len:203, offset:203, queue:0, costtime:0 "
+2023-04-06 22:46:46.091 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 203, updated: 0
+2023-04-06 22:46:46.168 2129-3204 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:46:46.169 3432-23194 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=5] uid:10209 pid =28412
+2023-04-06 22:46:46.169 2129-3204 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:46:46.170 3432-468 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=[shortcut_60c3b0c296c39d5dc384012526c2830d72c385c3b04dc282c3b5c3aac392]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=4] uid:10209 pid =28412
+2023-04-06 22:46:46.405 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 85, p_mcb:0x7021f7a8e8,p_port:0x7021f79c28,dlci:2
+2023-04-06 22:46:46.405 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:10
+2023-04-06 22:46:46.408 29394-29498 V/adam: 14:46:46.408 29498 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:46.409 29394-29549 V/adam: 14:46:46.408 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:46:46.409 29394-29549 V/adam: 14:46:46.409 29549 V adam adam_crypto_utils.cpp 106: --> aes_gcm_decrypt
+2023-04-06 22:46:46.410 29394-29549 V/adam: 14:46:46.410 29549 V adam adam_crypto_utils.cpp 179: finish dec in:38, keylen:32, iv:12, tag:16, out:10
+2023-04-06 22:46:46.411 29394-29549 V/adam: 14:46:46.410 29549 V adam adam_crypto_utils.cpp 106: <-- aes_gcm_decrypt +1
+2023-04-06 22:46:46.411 29394-29549 V/adam: 14:46:46.411 29549 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:46.411 29394-29549 V/adam: 14:46:46.411 29549 V adam adam_server_session.cpp 243: recv app cmd taskid:747, funcname:GetConversationList
+2023-04-06 22:46:46.412 29394-29549 V/adam: 14:46:46.412 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:46:46.413 29394-29549 V/adam: 14:46:46.412 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:46:46.428 29394-29502 V/adam: 14:46:46.428 29502 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:46:46.428 29394-29549 V/adam: 14:46:46.428 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:46:46.429 29394-29549 V/adam: 14:46:46.428 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:46:46.429 29394-29549 V/adam: 14:46:46.429 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:46:46.429 29394-29571 V/adam: 14:46:46.429 29571 V adam adam_packer_utils.cpp 18: --> adam_packer_pack_body
+2023-04-06 22:46:46.430 29394-29571 V/adam: 14:46:46.429 29571 V adam lz4_util.cpp 21: --> Lz4Compress
+2023-04-06 22:46:46.430 29394-29571 V/adam: 14:46:46.430 29571 V adam lz4_util.cpp 30: going to compress len:1182, max:1202
+2023-04-06 22:46:46.430 29394-29571 V/adam: 14:46:46.430 29571 V adam lz4_util.cpp 32: finish compress len:698
+2023-04-06 22:46:46.431 29394-29571 V/adam: 14:46:46.431 29571 V adam lz4_util.cpp 21: <-- Lz4Compress +2
+2023-04-06 22:46:46.431 29394-29571 V/adam: 14:46:46.431 29571 V adam adam_crypto_utils.cpp 34: --> aes_gcm_encrypt
+2023-04-06 22:46:46.431 29394-29571 V/adam: 14:46:46.431 29571 V adam adam_crypto_utils.cpp 102: finish enc in:698, keylen:32, iv:12, tag:16, out:726
+2023-04-06 22:46:46.431 29394-29571 V/adam: 14:46:46.431 29571 V adam adam_crypto_utils.cpp 34: <-- aes_gcm_encrypt +0
+2023-04-06 22:46:46.432 29394-29571 V/adam: 14:46:46.431 29571 V adam adam_packer_utils.cpp 62: comalgo:1, encalgo:1, origlen:1182, compressed:698, encrypt:726
+2023-04-06 22:46:46.432 29394-29571 V/adam: 14:46:46.432 29571 V adam adam_packer_utils.cpp 18: <-- adam_packer_pack_body +4
+2023-04-06 22:46:46.432 29394-29571 V/adam: 14:46:46.432 29571 V adam adam_server_session.cpp 518: cmdtype:17, orig:1182, encrypt:726
+2023-04-06 22:46:46.433 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:46.433 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:46:46.433 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:31
+2023-04-06 22:46:46.433 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 755 bytes
+2023-04-06 22:46:46.433 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:46:46.433 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:46:46.434 22709-22951 I/bt_rfcomm: LogMsg: p_len=755 bytes
+2023-04-06 22:46:47.123 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuCoreForThread:259]"cancelCpuCoreForThread: len:1, tid:28603, timestamp:" PRId64
+2023-04-06 22:46:47.124 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1005, dataLen:76 callertid:28603 timestamp:477477362"
+2023-04-06 22:46:47.124 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792407124041"
+2023-04-06 22:46:47.124 28412-28603 D/HARDCODER: [protocol.h,cancelCpuCoreForThread:853]"cancelCpuCoreForThread requestid:1680792407124041, unbindlen:1"
+2023-04-06 22:46:47.124 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:46:47.124 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:46:47.125 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1007, dataLen:67 callertid:28615 timestamp:477477363"
+2023-04-06 22:46:47.125 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792407125174"
+2023-04-06 22:46:47.125 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:128, fd:240, len:128, offset:128, queue:0, costtime:1 "
+2023-04-06 22:46:47.125 28412-28603 D/HARDCODER: [protocol.h,cancelHighIOFreq:922]"cancelHighIOFreq requestid:1680792407125174"
+2023-04-06 22:46:47.125 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelHighIOFreq:279]"cancelHighIOFreq, requestId:1680792407125174, tid:28615, timestamp:" PRId64
+2023-04-06 22:46:47.125 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 128, updated: 0
+2023-04-06 22:46:47.126 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:46:47.126 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:46:47.126 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:119, fd:240, len:119, offset:119, queue:0, costtime:0 "
+2023-04-06 22:46:47.127 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1003, dataLen:68 callertid:28615 timestamp:477477366"
+2023-04-06 22:46:47.127 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792407127939"
+2023-04-06 22:46:47.128 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 119, updated: 0
+2023-04-06 22:46:47.128 28412-28603 D/HARDCODER: [protocol.h,cancelCpuHighFreq:682]"cancelCpuHighFreq requestid:1680792407127939, tid:28615, timestamp:477477366"
+2023-04-06 22:46:47.128 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuHighFreq:217]"cancelCpuHighFreq, requestId:1680792407127939, tid:28615, timestamp:" PRId64
+2023-04-06 22:46:47.128 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:46:47.128 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:46:47.128 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:120, fd:240, len:120, offset:120, queue:0, costtime:0 "
+2023-04-06 22:46:47.128 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 120, updated: 0
+
+发
+
+2023-04-06 22:50:35.760 28412-28615 I/NotificationManager: com.tencent.mm: cancel(-1)
+2023-04-06 22:50:36.270 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1013, dataLen:151 callertid:28615 timestamp:477706509"
+2023-04-06 22:50:36.270 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792636270894"
+2023-04-06 22:50:36.271 28412-28603 D/HARDCODER: [protocol.h,requestUnifyCpuIOThreadCoreGpu:1190]"requestUnifyCpuIOThreadCoreGpu requestid:1680792636270894, scene:6, action:127040, cpulevel:2, iolevel:2, bindlen:0, gpulevel:1, timeoutms:1028"
+2023-04-06 22:50:36.271 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_requestUnifyCpuIOThreadCoreGpu:358]"requestUnifyCpuIOThreadCoreGpu, requestId:1680792636270894, scene:6, action:127040, cpulevel:2, iolevel:2, bindtids len:1, " "gpulevel:0 timeout:1028 tid:28615 timestamp:" PRId64
+2023-04-06 22:50:36.271 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:36.271 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:36.271 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:203, fd:240, len:203, offset:203, queue:0, costtime:0 "
+2023-04-06 22:50:36.272 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 203, updated: 0
+2023-04-06 22:50:36.337 2129-4461 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:50:36.339 3432-23194 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid:10209 pid =28412
+2023-04-06 22:50:36.339 2129-4461 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:50:36.341 3432-468 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=[shortcut_60c3b0c296c39d5dc384012526c2830d72c385c3b04dc282c3b5c3aac392]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid:10209 pid =28412
+2023-04-06 22:50:37.305 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuCoreForThread:259]"cancelCpuCoreForThread: len:1, tid:28603, timestamp:" PRId64
+2023-04-06 22:50:37.305 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1005, dataLen:76 callertid:28603 timestamp:477707544"
+2023-04-06 22:50:37.306 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792637306134"
+2023-04-06 22:50:37.306 28412-28603 D/HARDCODER: [protocol.h,cancelCpuCoreForThread:853]"cancelCpuCoreForThread requestid:1680792637306134, unbindlen:1"
+2023-04-06 22:50:37.307 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:37.307 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:37.307 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:128, fd:240, len:128, offset:128, queue:0, costtime:0 "
+2023-04-06 22:50:37.307 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 128, updated: 0
+2023-04-06 22:50:37.308 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1007, dataLen:67 callertid:28615 timestamp:477707546"
+2023-04-06 22:50:37.308 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792637308192"
+2023-04-06 22:50:37.308 28412-28603 D/HARDCODER: [protocol.h,cancelHighIOFreq:922]"cancelHighIOFreq requestid:1680792637308192"
+2023-04-06 22:50:37.308 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:37.308 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelHighIOFreq:279]"cancelHighIOFreq, requestId:1680792637308192, tid:28615, timestamp:" PRId64
+2023-04-06 22:50:37.309 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:37.309 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:119, fd:240, len:119, offset:119, queue:0, costtime:1 "
+2023-04-06 22:50:37.309 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1003, dataLen:68 callertid:28615 timestamp:477707548"
+2023-04-06 22:50:37.309 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 119, updated: 0
+2023-04-06 22:50:37.309 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792637309951"
+2023-04-06 22:50:37.310 28412-28603 D/HARDCODER: [protocol.h,cancelCpuHighFreq:682]"cancelCpuHighFreq requestid:1680792637309951, tid:28615, timestamp:477707548"
+2023-04-06 22:50:37.310 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuHighFreq:217]"cancelCpuHighFreq, requestId:1680792637309951, tid:28615, timestamp:" PRId64
+2023-04-06 22:50:37.311 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:37.311 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:37.311 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:120, fd:240, len:120, offset:120, queue:0, costtime:0 "
+2023-04-06 22:50:37.311 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 120, updated: 0
+2023-04-06 22:50:37.351 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 148, p_mcb:0x7021f7a8e8,p_port:0x7021f79c28,dlci:2
+2023-04-06 22:50:37.352 22709-22951 I/bt_rfcomm: LogMsg: rfc_inc_credit:10
+2023-04-06 22:50:37.352 22709-22951 I/bt_rfcomm: LogMsg: PORT_DataInd with data length 176, p_mcb:0x7021f7a8e8,p_port:0x7021f79c28,dlci:2
+2023-04-06 22:50:37.356 29394-29427 V/adam: 14:50:37.356 29427 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.358 29394-29549 V/adam: 14:50:37.357 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:50:37.359 29394-29549 V/adam: 14:50:37.358 29549 V adam adam_crypto_utils.cpp 106: --> aes_gcm_decrypt
+2023-04-06 22:50:37.360 29394-29549 V/adam: 14:50:37.359 29549 V adam adam_crypto_utils.cpp 179: finish dec in:105, keylen:32, iv:12, tag:16, out:77
+2023-04-06 22:50:37.361 29394-29549 V/adam: 14:50:37.360 29549 V adam adam_crypto_utils.cpp 106: <-- aes_gcm_decrypt +2
+2023-04-06 22:50:37.362 29394-29427 V/adam: 14:50:37.362 29427 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.364 29394-29549 V/adam: 14:50:37.363 29549 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.364 29394-29549 V/adam: 14:50:37.364 29549 V adam adam_server_session.cpp 243: recv app cmd taskid:787, funcname:SendTextMessage
+2023-04-06 22:50:37.365 29394-29549 V/adam: 14:50:37.365 29549 V adam adam_crypto_utils.cpp 106: --> aes_gcm_decrypt
+2023-04-06 22:50:37.366 29394-29549 V/adam: 14:50:37.365 29549 V adam adam_crypto_utils.cpp 179: finish dec in:137, keylen:32, iv:12, tag:16, out:109
+2023-04-06 22:50:37.367 29394-29549 V/adam: 14:50:37.366 29549 V adam adam_crypto_utils.cpp 106: <-- aes_gcm_decrypt +1
+2023-04-06 22:50:37.367 29394-29549 V/adam: 14:50:37.367 29549 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.368 29394-29549 V/adam: 14:50:37.367 29549 V adam adam_server_session.cpp 243: recv app cmd taskid:788, funcname:GetMessages
+2023-04-06 22:50:37.369 29394-29549 V/adam: 14:50:37.368 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:50:37.369 29394-29549 V/adam: 14:50:37.369 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:50:37.400 29394-29502 V/adam: 14:50:37.399 29502 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.402 29394-29549 V/adam: 14:50:37.400 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:50:37.404 29394-29549 V/adam: 14:50:37.403 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:50:37.406 29394-29571 V/adam: 14:50:37.404 29571 V adam adam_packer_utils.cpp 18: --> adam_packer_pack_body
+2023-04-06 22:50:37.407 29394-29571 V/adam: 14:50:37.406 29571 V adam lz4_util.cpp 21: --> Lz4Compress
+2023-04-06 22:50:37.408 29394-29571 V/adam: 14:50:37.407 29571 V adam lz4_util.cpp 30: going to compress len:169, max:185
+2023-04-06 22:50:37.408 29394-29571 V/adam: 14:50:37.408 29571 V adam lz4_util.cpp 32: finish compress len:160
+2023-04-06 22:50:37.409 29394-29571 V/adam: 14:50:37.409 29571 V adam lz4_util.cpp 21: <-- Lz4Compress +3
+2023-04-06 22:50:37.410 29394-29571 V/adam: 14:50:37.409 29571 V adam adam_crypto_utils.cpp 34: --> aes_gcm_encrypt
+2023-04-06 22:50:37.411 29394-29549 V/adam: 14:50:37.410 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:50:37.412 29394-29571 V/adam: 14:50:37.411 29571 V adam adam_crypto_utils.cpp 102: finish enc in:160, keylen:32, iv:12, tag:16, out:188
+2023-04-06 22:50:37.412 29394-29571 V/adam: 14:50:37.412 29571 V adam adam_crypto_utils.cpp 34: <-- aes_gcm_encrypt +3
+2023-04-06 22:50:37.413 29394-29571 V/adam: 14:50:37.412 29571 V adam adam_packer_utils.cpp 62: comalgo:1, encalgo:1, origlen:169, compressed:160, encrypt:188
+2023-04-06 22:50:37.413 29394-29571 V/adam: 14:50:37.413 29571 V adam adam_packer_utils.cpp 18: <-- adam_packer_pack_body +10
+2023-04-06 22:50:37.414 29394-29571 V/adam: 14:50:37.413 29571 V adam adam_server_session.cpp 518: cmdtype:17, orig:169, encrypt:188
+2023-04-06 22:50:37.415 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:50:37.415 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:50:37.415 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:31
+2023-04-06 22:50:37.415 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 217 bytes
+2023-04-06 22:50:37.415 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:50:37.416 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:50:37.416 22709-22951 I/bt_rfcomm: LogMsg: p_len=217 bytes
+2023-04-06 22:50:37.423 29394-29595 I/mars::stn: [longlink_connect_monitor.cc:470, OnHeartbeatAlarmSet]:longlink_progress on_heartbeat_set, time: 477707662, time interval:210000
+2023-04-06 22:50:37.627 29394-29502 V/adam: 14:50:37.627 29502 V adam looper.cpp 131: receive invoke event!
+2023-04-06 22:50:37.628 29394-29549 V/adam: 14:50:37.628 29549 V adam looper.cpp 273: wakeup lock: acquire
+2023-04-06 22:50:37.629 29394-29549 V/adam: 14:50:37.628 29549 V adam looper.cpp 265: idle wait
+2023-04-06 22:50:37.629 29394-29549 V/adam: 14:50:37.629 29549 V adam looper.cpp 268: wakeup lock: release
+2023-04-06 22:50:37.630 29394-29571 V/adam: 14:50:37.629 29571 V adam adam_packer_utils.cpp 18: --> adam_packer_pack_body
+2023-04-06 22:50:37.630 29394-29571 V/adam: 14:50:37.630 29571 V adam lz4_util.cpp 21: --> Lz4Compress
+2023-04-06 22:50:37.631 29394-29571 V/adam: 14:50:37.630 29571 V adam lz4_util.cpp 30: going to compress len:17, max:33
+2023-04-06 22:50:37.631 29394-29571 V/adam: 14:50:37.631 29571 V adam lz4_util.cpp 32: finish compress len:19
+2023-04-06 22:50:37.632 29394-29571 V/adam: 14:50:37.631 29571 V adam lz4_util.cpp 21: <-- Lz4Compress +1
+2023-04-06 22:50:37.632 29394-29571 V/adam: 14:50:37.632 29571 V adam adam_crypto_utils.cpp 34: --> aes_gcm_encrypt
+2023-04-06 22:50:37.632 29394-29571 V/adam: 14:50:37.632 29571 V adam adam_crypto_utils.cpp 102: finish enc in:19, keylen:32, iv:12, tag:16, out:47
+2023-04-06 22:50:37.632 29394-29571 V/adam: 14:50:37.632 29571 V adam adam_crypto_utils.cpp 34: <-- aes_gcm_encrypt +0
+2023-04-06 22:50:37.633 29394-29571 V/adam: 14:50:37.632 29571 V adam adam_packer_utils.cpp 62: comalgo:1, encalgo:1, origlen:17, compressed:19, encrypt:47
+2023-04-06 22:50:37.633 29394-29571 V/adam: 14:50:37.633 29571 V adam adam_packer_utils.cpp 18: <-- adam_packer_pack_body +4
+2023-04-06 22:50:37.633 29394-29571 V/adam: 14:50:37.633 29571 V adam adam_server_session.cpp 518: cmdtype:17, orig:17, encrypt:47
+2023-04-06 22:50:37.634 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_BUSY peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:50:37.634 22709-22951 I/bt_btm_pm: BTM_SetPowerMode: Device is already in requested mode 0, interval: 0, max: 0, min: 0
+2023-04-06 22:50:37.634 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteDataCO() handle:31
+2023-04-06 22:50:37.634 22709-22951 I/bt_rfcomm: LogMsg: PORT_WriteData 75 bytes
+2023-04-06 22:50:37.634 22709-22951 I/bt_rfcomm: LogMsg: PORT_Write : Data is being sent
+2023-04-06 22:50:37.635 22709-22951 D/bt_bta_dm: bta_dm_rm_cback: BTA Role management callback count:2 status:BTA_SYS_CONN_IDLE peer:c0:83:xx:xx:xx:0b
+2023-04-06 22:50:37.635 22709-22951 I/bt_rfcomm: LogMsg: p_len=75 bytes
+2023-04-06 22:50:37.781 28412-28464 I/NotificationManager: com.tencent.mm: cancel(-1)
+2023-04-06 22:50:38.298 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1013, dataLen:151 callertid:28464 timestamp:477708537"
+2023-04-06 22:50:38.299 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792638299103"
+2023-04-06 22:50:38.299 28412-28603 D/HARDCODER: [protocol.h,requestUnifyCpuIOThreadCoreGpu:1190]"requestUnifyCpuIOThreadCoreGpu requestid:1680792638299103, scene:6, action:127040, cpulevel:2, iolevel:2, bindlen:0, gpulevel:1, timeoutms:1029"
+2023-04-06 22:50:38.299 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_requestUnifyCpuIOThreadCoreGpu:358]"requestUnifyCpuIOThreadCoreGpu, requestId:1680792638299103, scene:6, action:127040, cpulevel:2, iolevel:2, bindtids len:1, " "gpulevel:0 timeout:1029 tid:28464 timestamp:" PRId64
+2023-04-06 22:50:38.299 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:38.300 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:38.300 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:203, fd:240, len:203, offset:203, queue:0, costtime:0 "
+2023-04-06 22:50:38.300 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 203, updated: 0
+2023-04-06 22:50:38.370 2129-2149 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:50:38.373 3432-23194 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=null][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid:10209 pid =28412
+2023-04-06 22:50:38.373 2129-2149 I/ContentProviderHelper: Successfully start provider ContentProviderRecord{9274f63 u0 com.huawei.android.launcher/.LauncherProvider} launchingApp=null caller pid= 28412
+2023-04-06 22:50:38.375 3432-468 I/HwLauncher: LauncherProvider launcher call - method:setAppBadgeCount arg:nullextras:[app_shortcut_custom_id=[shortcut_60c3b0c296c39d5dc384012526c2830d72c385c3b04dc282c3b5c3aac392]][app_shortcut_class_name=com.tencent.mm.ui.LauncherUI][app_badge_count=0] uid:10209 pid =28412
+2023-04-06 22:50:39.331 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuCoreForThread:259]"cancelCpuCoreForThread: len:1, tid:28603, timestamp:" PRId64
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1005, dataLen:76 callertid:28603 timestamp:477709570"
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792639332066"
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [protocol.h,cancelCpuCoreForThread:853]"cancelCpuCoreForThread requestid:1680792639332066, unbindlen:1"
+2023-04-06 22:50:39.332 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:39.332 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:39.332 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:128, fd:240, len:128, offset:128, queue:0, costtime:0 "
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1007, dataLen:67 callertid:28464 timestamp:477709571"
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792639332644"
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [protocol.h,cancelHighIOFreq:922]"cancelHighIOFreq requestid:1680792639332644"
+2023-04-06 22:50:39.332 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelHighIOFreq:279]"cancelHighIOFreq, requestId:1680792639332644, tid:28464, timestamp:" PRId64
+2023-04-06 22:50:39.332 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 128, updated: 0
+2023-04-06 22:50:39.333 28412-28603 D/HARDCODER: [header.h,genReqPack:46]"getReqPack funcid:1003, dataLen:68 callertid:28464 timestamp:477709571"
+2023-04-06 22:50:39.333 28412-28603 D/HARDCODER: [header.h,genReqPack:87]"genReqPack json header len:52, requestid:1680792639333035"
+2023-04-06 22:50:39.333 28412-28603 D/HARDCODER: [protocol.h,cancelCpuHighFreq:682]"cancelCpuHighFreq requestid:1680792639333035, tid:28464, timestamp:477709571"
+2023-04-06 22:50:39.333 28412-28603 D/HARDCODER: [com_tencent_mm_hardcoder_HardCoderJNI.cpp,Java_com_tencent_mm_hardcoder_HardCoderJNI_cancelCpuHighFreq:217]"cancelCpuHighFreq, requestId:1680792639333035, tid:28464, timestamp:" PRId64
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:119, fd:240, len:119, offset:119, queue:1, costtime:0 "
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,loop:185]"loop, poll success, revents&POLLIN:1, read pipe ret:4"
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,checkCanWrite:63]"checkCanWrite poll ret:1 revent&POLLOUT:4, fd:240"
+2023-04-06 22:50:39.333 28412-28605 D/HARDCODER: [localsocket.h,loop:160]"loop, send sendPack finish, ret:120, fd:240, len:120, offset:120, queue:0, costtime:0 "
+2023-04-06 22:50:39.334 2129-28606 D/GameLocalSocketServer: uid: 10209, pid: 28412, sock: 1155, begin: 0x48444352, recv len: 239, updated: 0
+2023-04-06 22:50:39.618 22709-22951 I/bt_btm_pm: btm_pm_proc_mode_change: Power mode switched from immediate:active[0] to immediate:sniff[2]
+2023-04-06 22:50:39.618 22709-22951 D/bt_btm: LogMsg: btm mode change to active; check l2c_link for outgoing packets
